@@ -18,9 +18,9 @@ node_modules/
 /vendor/bundle
 *.gem
 
-yarn.lock
-package-lock.json
-Gemfile.lock
+# yarn.lock
+# package-lock.json
+# Gemfile.lock
 
 _site/
 .jekyll-metadata
