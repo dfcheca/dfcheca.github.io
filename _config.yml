@@ -223,3 +223,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+font:
+  family: 'Roboto, sans-serif'

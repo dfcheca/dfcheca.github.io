@@ -93,7 +93,7 @@
     {%- endif -%}
 
     {%- if _author.linkedin -%}
-      <li title="{{ _locale_string_follow | replace: '[NAME]', 'Linkedin' }}">
+      <li title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}">
         <a class="button button--circle linkedin-button" itemprop="sameAs" href="https://www.linkedin.com/in/{{ _author.linkedin }}" target="_blank">
           <div class="icon">{%- include svg/icon/social/linkedin.svg -%}</div>
         </a>
@@ -101,7 +101,7 @@
     {%- endif -%}
 
     {%- if _author.github -%}
-      <li title="{{ _locale_string_follow | replace: '[NAME]', 'Github' }}">
+      <li title="{{ _locale_string_follow | replace: '[NAME]', 'GitHub' }}">
         <a class="button button--circle github-button" itemprop="sameAs" href="https://github.com/{{ _author.github }}" target="_blank">
           <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
         </a>
@@ -118,8 +118,8 @@
 
     {%- if _author.orcid -%}
       <li title="{{ _locale_string_follow | replace: '[NAME]', 'ORCID' }}">
-        <a class="button button--circle orcid-button" itemprop="sameAs" href="https://orcid.com/{{ _author.orcid }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
+        <a class="button button--circle orcid-button" itemprop="sameAs" href="https://orcid.org/{{ _author.orcid }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/orcid.svg -%}</div>
         </a>
       </li>
     {%- endif -%}
