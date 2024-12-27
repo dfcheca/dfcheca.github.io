@@ -1,19 +1,16 @@
 header:
-  - titles:
-      en      : &EN       About
-    url: /about.html
-
-  - titles:
-      en      : &EN       CV
-    url: /archive.html
 
   - titles:
       en      : &EN       Research
-    url: /archive.html
+    url: /#research
 
   - titles:
       en      : &EN       Events
-    url: /archive.html
+    url: /#events
+
+  - titles:
+      en      : &EN       CV
+    url: /#education
 
   - titles:
       en      : &EN       Exercises
@@ -22,7 +19,3 @@ header:
   - titles:
       en      : &EN       Watch
     url: https://youtu.be/xvFZjo5PgG0
-
-  - titles:
-      en      : &EN       Contact
-    url: /archive.html

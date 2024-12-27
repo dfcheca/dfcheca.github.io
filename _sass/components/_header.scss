@@ -86,6 +86,16 @@
   }
 }
 
+.header__brand a {
+  color: inherit; /* Mantiene el color del texto igual al de su elemento padre */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.header__brand a:hover {
+  color: inherit; /* No cambia el color al pasar el cursor */
+  text-decoration: none; /* Asegura que no aparezca subrayado al pasar el cursor */
+}
+
 .navigation {
   @include overflow(auto, "x");
   & > ul {
