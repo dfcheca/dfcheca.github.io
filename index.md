@@ -55,7 +55,7 @@ key: home
 
 ### Funding
 
-- Jun. 2023 to Dec. 2023 (UNAL) \| *Applications Of Symbolic Computation And Combinatorics In The Quantitative Study Of Large Discrete Structures*. Grant Number: 201 010 040 198.
+- Jun. 2023 to Dec. 2023 (F. Sc. UNAL) \| <a href="http://www.hermes.unal.edu.co/pages/Consultas/Proyecto.xhtml?idProyecto=57340" target="_blank"> *Applications Of Symbolic Computation And Combinatorics In The Quantitative Study Of Large Discrete Structures*</a>. Grant Number: 201 010 040 198.
 
 ## Events
 
