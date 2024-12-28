@@ -124,5 +124,12 @@
       </li>
     {%- endif -%}
 
+    {%- if _author.googlescholar -%}
+      <li title="{{ _locale_string_follow | replace: '[NAME]', 'Google Scholar' }}">
+        <a class="button button--circle googlescholar-button" itemprop="sameAs" href="https://scholar.google.com/citations?user={{ _author.googlescholar }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/googlescholar.svg -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
   </ul>
 </div>

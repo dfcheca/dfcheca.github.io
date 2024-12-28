@@ -86,14 +86,12 @@
   }
 }
 
-.header__brand a {
-  color: inherit; /* Mantiene el color del texto igual al de su elemento padre */
-  text-decoration: none; /* Elimina el subrayado del enlace */
-}
-
-.header__brand a:hover {
-  color: inherit; /* No cambia el color al pasar el cursor */
-  text-decoration: none; /* Asegura que no aparezca subrayado al pasar el cursor */
+.header__brand > a {
+  @include link-colors($header-text-color, $header-text-color); // Si es necesario mantener el color sin cambios.
+  &:hover {
+    color: inherit; // Mantiene el color actual sin cambios al pasar el cursor.
+    text-decoration: none; // Opcional, si no deseas subrayados.
+  }
 }
 
 .navigation {

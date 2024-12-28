@@ -41,6 +41,9 @@
       .orcid-button {
         @include clickable($text-color-1, $orcid-color);
       }
+      .googlescholar-button {
+        @include clickable($text-color-1, $google-scholar-color);
+      }
     }
   }
 }
