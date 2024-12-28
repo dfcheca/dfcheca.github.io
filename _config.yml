@@ -24,7 +24,6 @@ title   : Daniel F. Checa
 description: > # this means to ignore newlines until "Language & timezone"
   Mathematician
 
-
 ## => Language and Timezone
 ##############################
 lang: en # the language of your site, default as "en"
@@ -85,7 +84,7 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: true # false (default), true
+mathjax: false # false (default), true
 mathjax_autoNumber: false # false (default), true
 
 ## Mermaid

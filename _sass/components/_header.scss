@@ -87,10 +87,10 @@
 }
 
 .header__brand > a {
-  @include link-colors($header-text-color, $header-text-color); // Si es necesario mantener el color sin cambios.
+  @include link-colors($header-text-color, $header-text-color);
   &:hover {
-    color: inherit; // Mantiene el color actual sin cambios al pasar el cursor.
-    text-decoration: none; // Opcional, si no deseas subrayados.
+    color: inherit;
+    text-decoration: none;
   }
 }
 
