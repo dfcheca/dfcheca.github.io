@@ -14,24 +14,27 @@ window.Lazyload.js([SOURCES.jquery, PAHTS.search_js], function() {
   }
 
   /// search
-  function searchByQuery(query) {
-    var i, j, key, keys, cur, _title, result = {};
-    keys = Object.keys(searchData);
-    for (i = 0; i < keys.length; i++) {
-      key = keys[i];
-      for (j = 0; j < searchData[key].length; j++) {
-        cur = searchData[key][j], _title = cur.title;
-        if ((result[key] === undefined || result[key] && result[key].length < 4 )
-          && _title.toLowerCase().indexOf(query.toLowerCase()) >= 0) {
-          if (result[key] === undefined) {
-            result[key] = [];
-          }
-          result[key].push(cur);
+function searchByQuery(query) {
+  var i, j, key, keys, cur, _title, _content, result = {};
+  keys = Object.keys(searchData);
+  for (i = 0; i < keys.length; i++) {
+    key = keys[i];
+    for (j = 0; j < searchData[key].length; j++) {
+      cur = searchData[key][j];
+      _title = cur.title;
+      _content = cur.content;
+      if ((result[key] === undefined || result[key].length < 4) &&
+          (_title.toLowerCase().indexOf(query.toLowerCase()) >= 0 ||
+           _content.toLowerCase().indexOf(query.toLowerCase()) >= 0)) {
+        if (result[key] === undefined) {
+          result[key] = [];
         }
+        result[key].push(cur);
       }
     }
-    return result;
   }
+  return result;
+}
 
   var renderHeader = memorize(function(header) {
     return $('<p class="search-result__header">' + header + '</p>');
