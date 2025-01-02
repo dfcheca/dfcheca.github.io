@@ -7,12 +7,14 @@
 
 <script>
   window.MathJax = {
+    loader: {load: ['[tex]/boldsymbol']},
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']],
       {% if _mathjax_autoNumber == true %}
       tags: "all",
       {% endif %}
+      packages: {'[+]': ['boldsymbol']}
     }
   };
 </script>

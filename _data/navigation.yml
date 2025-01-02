@@ -9,11 +9,7 @@ header:
     url: /#events
 
   - titles:
-      en      : &EN       CV
-    url: /#education
-
-  - titles:
-      en      : &EN       Exercises
+      en      : &EN       Archive
     url: /archive.html
   
   - titles:
