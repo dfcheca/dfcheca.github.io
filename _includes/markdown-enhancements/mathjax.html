@@ -14,7 +14,18 @@
       {% if _mathjax_autoNumber == true %}
       tags: "all",
       {% endif %}
-      packages: {'[+]': ['boldsymbol']}
+      packages: {'[+]': ['boldsymbol']},
+    }, //The following are new options in v. 4, disable if using v.3
+    options: {
+      speechTiming: {
+          asynchronous: true, // true to allow screen updates while adding speech, false to not
+          initial: 100, // initial delay (in milliseconds) until starting to add speech
+          threshold: 250, // time (in milliseconds) to process speech before letting screen update
+          intermediate: 10 // delay (in milliseconds) after processing speech reaches the threshold
+      }
+    },
+    output: {
+      font: 'mathjax-modern' // Options (b.7): mathjax-modern (default), mathjax-asana, mathjax-bonum, mathjax-dejavu, mathjax-pagella, mathjax-schola, mathjax-termes, mathjax-stix2, mathjax-fira, mathjax-euler, mathjax-tex
     }
   };
 </script>
