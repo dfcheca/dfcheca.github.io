@@ -22,6 +22,14 @@
           initial: 100, // initial delay (in milliseconds) until starting to add speech
           threshold: 250, // time (in milliseconds) to process speech before letting screen update
           intermediate: 10 // delay (in milliseconds) after processing speech reaches the threshold
+      },
+      enableEnrichment: true,   // false to disable accesibility enrichment
+      menuOptions: {
+        settings: {
+          assistiveMml: true,   // true to enable assistive MathML
+          collapsible: false,   // true to enable collapsible math
+          explorer: false      // true to enable the expression explorer
+        }
       }
     },
     output: {
