@@ -4,6 +4,8 @@ tags: ["Algebraic Combinatorics", "Graph Theory", "Adjacency Matrix"]
 
 ---
 
+***Taken from:*** \[[1](#Stanley2018), Exercise 1.1\].
+
 ## Exercise 1.1
 Find a combinatorial proof of Corollary 1.6, i.e., the number of closed walks of length $\ell$ in $ K_p $ from some vertex to itself is given by
 
@@ -59,3 +61,7 @@ $$
 $$
 
 By comparing the coefficients, we get the desired equality. <span style="float: right;">$\blacksquare$</span>
+
+## References
+
+1. <a id="Stanley2018"></a>  *Algebraic Combinatorics: Walks, Trees, Tableaux, and More* (2nd ed.). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-77173-1" target="_blank">https://doi.org/10.1007/978-3-319-77173-1</a>

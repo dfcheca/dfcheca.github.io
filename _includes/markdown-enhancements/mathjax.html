@@ -12,7 +12,7 @@
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']],
       {% if _mathjax_autoNumber == true %}
-      tags: "all",
+      tags: "ams", //Not "all", as configured before
       {% endif %}
       packages: {'[+]': ['boldsymbol']},
     }, //The following are new options in v. 4, disable if using v.3

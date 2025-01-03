@@ -4,7 +4,9 @@ tags: ["Algebraic Combinatorics", "Graph Theory", "Adjacency Matrix", "Laplacian
 
 ---
 
-## Exercise 9.7(a)
+***Taken from:*** \[[1](#Stanley2018), Exercise 9.7\].
+
+## Exercise 9.7 (a)
 Let $ G $ be a bipartite graph with vertex bipartition $ (A, B) $. Suppose that $ \deg v = a $ for all $ v \in A $, and $ \deg v = b $ for all $ v \in B $. Let $ \boldsymbol{A} $ and $ \boldsymbol{L} $ denote the adjacency matrix and Laplacian matrix of $ G $, respectively. Show that if the eigenvalues of $ \boldsymbol{L} $ are $ \lambda_1, \dots, \lambda_p $, then the eigenvalues of $ \boldsymbol{A}^2 $ are $ (\lambda_1 - a)(\lambda_1 - b), \dots, (\lambda_p - a)(\lambda_p - b) $.
 
 ### Proof
@@ -166,3 +168,7 @@ $$
 $$
 
 which means that $ (\lambda - a)(\lambda - b) $ is also an eigenvalue of $ \boldsymbol{A}^2 $. <span style="float: right;">$\blacksquare$</span>
+
+## References
+
+1. <a id="Stanley2018"></a>  *Algebraic Combinatorics: Walks, Trees, Tableaux, and More* (2nd ed.). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-77173-1" target="_blank">https://doi.org/10.1007/978-3-319-77173-1</a>
