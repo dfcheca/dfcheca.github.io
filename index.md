@@ -14,38 +14,21 @@ key: home
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px;">
 
-  <div style="flex: 0 0 auto; padding: 10px; text-align: center; position: relative; width: 177px; height: 177px;">
-    <div 
-      style="
-        width: 177px; 
-        height: 177px; 
-        border: 1px solid #002240; /* Dark blue color */
-        border-radius: 50%; 
-        position: absolute; 
-        top: 0; 
-        left: 0;
-      ">
-    </div>
-    <img 
-      src="assets/images/profile/profile.jpg" 
-      alt="Daniel F. Checa"
-      style="width: 170px; height: 170px; border-radius: 50%; position: absolute; top: 3.5px; left: 3.5px;"
-    />
+  <div class="profile-image">
+    <img src="assets/images/profile/profile.jpg" alt="Daniel" width="180" height="180" class="circle shadow">
   </div>
-
-  <div style="flex: 1; min-width: 250px; text-align: justify; margin-left: 40px; align-items: center;">
+  <div class="profile-description">
     <p>
-      <b style="font-size: 24px;">Mathematician — <i> MSc. Student </i>&nbsp; | &nbsp; Uniandes </b> <br>
-      <a href="mailto:d.checa@uniandes.edu.co" style="font-family: monospace;">d.checa@uniandes.edu.co</a>
+      <b style="font-size: 24px; line-height: 1.2">Mathematician </b> <br>
+      <span style="font-size: 24px; color: #808080; line-height: 1.2">MSc. Student &nbsp; | &nbsp; Uniandes </span> <br>
+      <a href="mailto:d.checa@uniandes.edu.co" style="font-family: 'Fira Code'; font-weight:400">d.checa@uniandes.edu.co</a>
       
       <div style="height: 5px;"></div>
 
-      <b>Mathematician</b>, sometimes photographer. My areas of interest are enumerative and algebraic combinatorics, as well as topics in discrete mathematics.
+      Mathematician, sometimes photographer. My areas of interest are enumerative and algebraic combinatorics, as well as topics in discrete mathematics.
     </p>
   </div>
-
 </div>
-
 
 ## Research
 
@@ -79,3 +62,40 @@ key: home
 
 - 2024 - Present. **Universidad de los Andes**, Graduate Assistant - Mathematics Department.
 - 2021 - 2023. **Universidad Nacional de Colombia**, Tutor - *Grupos de Estudio Autónomo* (GEA).
+
+<style>
+/* General styles */
+.profile-image {
+  flex: 0 0 auto;
+  text-align: center;
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto; /* Center alignment for smaller screens */
+}
+
+.profile-description {
+  flex: 1;
+  min-width: 250px;
+  text-align: justify;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.email-link {
+  font-family: map-get($base, font-family-code);
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .profile-image {
+    margin: 0 auto; /* Center the image */
+    text-align: center;
+  }
+
+  .profile-description {
+    margin-left: 0; /* Remove left margin for proper alignment */
+    text-align: center; /* Optional: Center-align text */
+  }
+}
+</style>
