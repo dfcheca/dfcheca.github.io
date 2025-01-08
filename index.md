@@ -19,8 +19,8 @@ key: home
   </div>
   <div class="profile-description">
     <p>
-      <b style="font-size: 24px; line-height: 1.2">Mathematician </b> <br>
-      <span style="font-size: 24px; color: #808080; line-height: 1.2">MSc. Student &nbsp; | &nbsp; Uniandes </span> <br>
+      <b style="font-size: 24px; line-height: 1.5">Mathematician </b> <br>
+      <span style="font-size: 20px; color: #808080; line-height: 1; font-weight: 400">MSc. Student &nbsp; | &nbsp; Uniandes </span> <br>
       <a href="mailto:d.checa@uniandes.edu.co" style="font-family: 'Fira Code'; font-weight:400">d.checa@uniandes.edu.co</a>
       
       <div style="height: 5px;"></div>
