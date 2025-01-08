@@ -19,10 +19,9 @@ key: home
   </div>
   <div class="profile-description">
     <p>
-      <b style="font-size: 24px; line-height: 1.5">Mathematician </b> <br>
-      <span style="font-size: 20px; color: #808080; line-height: 1; font-weight: 400">MSc. Student &nbsp; | &nbsp; Uniandes </span> <br>
-      <a href="mailto:d.checa@uniandes.edu.co" style="font-family: 'IBM Plex Mono'; font-weight:400">d.checa@uniandes.edu.co</a>
-      
+      <b style="font-size: 22px; line-height: 0.5;">Mathematician </b> <br>
+      <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400">MSc. Student &nbsp; | &nbsp; Graduate Assistant &nbsp; | &nbsp; Uniandes </span> <br>
+      <a href="mailto:d.checa@uniandes.edu.co" style="font-family: 'Fira Code'; font-weight:500; font-size: 15px">d.checa@uniandes.edu.co</a>
       <div style="height: 5px;"></div>
 
       Mathematician, sometimes photographer. My areas of interest are enumerative and algebraic combinatorics, as well as topics in discrete mathematics.

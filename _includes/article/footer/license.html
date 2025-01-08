@@ -3,9 +3,9 @@
 
 {%- if include.license -%}
 
-  {%-assign _license_name = '<a itemprop="license" rel="license" href="[URL]">[NAME]</a>' | replace: "[URL]", include.license.url | replace: "[NAME]", include.license.name -%}
-  <div class="license">
-    <p>{{ _license_announce | replace: "[LICENSE]", _license_name }}
+  {%-assign _license_name = '<a style="font-weight: 500;" itemprop="license" rel="license" href="[URL]">[NAME]</a>' | replace: "[URL]", include.license.url | replace: "[NAME]", include.license.name -%}
+  <div class="license" >
+    <p>{{ _license_announce | replace: "[LICENSE]", _license_name }} &nbsp;
       <a rel="license" href="{{ include.license.url }}" target="_blank">
         <img alt="{{ include.license.name }}" src="{{ include.license.image }}" style="width: 70px; height: auto;" />
       </a>

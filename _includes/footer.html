@@ -1,5 +1,5 @@
 
-<footer class="footer py-4 js-page-footer">
+<footer class="footer py-4 js-page-footer" style="font-weight: 300;">
   <div class="main">
 
     {%- assign _site_author = site.author -%}
@@ -29,7 +29,7 @@
         {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
         {%- assign _locale_copyright_dates = __return -%}
         © {{ site.title }} {{ "now" | date: "%Y" }},
-        Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
+        Powered by <a style="font-weight: 500;" title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a style="font-weight: 500;"
         title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
       </div>
     </div>
