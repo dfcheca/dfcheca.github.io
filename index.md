@@ -33,7 +33,7 @@ key: home
 
 - *Upcoming:* Nadji, M. L., Ahmia, M., Checa, D. F., & Ramírez, J. L. (2025). *Arndt Compositions with Restricted Parts, Palindromes, and Colored Variants*. To appear in *Journal of Integer Sequences*.
 
-- Checa, D. F., & Ramírez, J. L. (2024). <a href="https://math.colgate.edu/~integers/y35/y35.pdf" target="_blank">*Arndt Compositions: A Generating Functions Approach*</a>. Integers, 24.
+- Checa, D. F., & Ramírez, J. L. (2024). <a href="https://math.colgate.edu/~integers/y35/y35.pdf" target="_blank">*Arndt Compositions: A Generating Functions Approach*</a>. INTEGERS, 24, #A35.
 
 ### Funding
 
