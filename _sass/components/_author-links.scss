@@ -44,6 +44,9 @@
       .googlescholar-button {
         @include clickable($text-color-1, $google-scholar-color);
       }
+      .cvlac-button {
+        @include clickable($text-color-1, $cvlac-color);
+      }
     }
   }
 }
