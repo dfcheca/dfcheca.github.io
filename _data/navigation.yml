@@ -9,7 +9,7 @@ header:
     url: /#events
 
   - titles:
-      en      : &EN       Archive
+      en      : &EN       Blog
     url: /archive.html
   
   - titles:

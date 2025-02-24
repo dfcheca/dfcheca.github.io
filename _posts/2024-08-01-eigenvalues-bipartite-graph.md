@@ -77,6 +77,6 @@ It is known that a polynomial $ f(x) $ is even if and only if it is of the form 
 
 ## References
 
-1. <a id="Stanley2018"></a>  *Algebraic Combinatorics: Walks, Trees, Tableaux, and More* (2nd ed.). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-77173-1" target="_blank">https://doi.org/10.1007/978-3-319-77173-1</a>
+1. <a id="Stanley2018"></a> Stanley, Richard P. (2018). *Algebraic Combinatorics: Walks, Trees, Tableaux, and More* (2nd ed.). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-77173-1" target="_blank">https://doi.org/10.1007/978-3-319-77173-1</a>
 
 2. <a id="Taboga2021"></a> Taboga, M. (2021). *Determinant of a block matrix*. Lectures on matrix algebra. Retrieved from <a href="https://www.statlect.com/matrix-algebra/determinant-of-block-matrix" target="_blank">https://www.statlect.com/matrix-algebra/determinant-of-block-matrix</a>
