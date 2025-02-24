@@ -41,13 +41,13 @@ key: home
 
 ## Events
 
-- Jun. 2025. **Días de Combinatoria 2025**, Bogotá, Colombia.
+- Jun. 2025. **Días de Combinatoria**, Bogotá, Colombia.
 - Jul. 2024. **Colombian Encounter of Tropical and Non-archimedean Geometry**, Bogotá, Colombia.
 - Jun. 2024. **VIII ECCO - CIMPA Research School: Bridges between Algebra and Combinatorics**, Popayán, Colombia. <a href="posters/ecco2024.pdf" target="_blank">*Poster*</a>.
 - Nov. 2023. **ALTENCOA 9**, Cali, Colombia. *Speaker*.
 - Sep. 2023. **ICMAM Latin America Satellite Conference on Algebra, Combinatorics and Number Theory**, Virtual.
 - Sep. 2023. **International Conference on Enumerative Combinatorics and Applications**, Virtual.
-- Jul. 2023. **XXIII Colombian Congress of Mathematics (2023)**. *Speaker*.
+- Jul. 2023. **XXIII Colombian Congress of Mathematics**. *Speaker*.
 - Jun. 2022. **VIII ECCO - CIMPA Research School: Geometric methods in combinatorics**, Bogotá, Colombia.
 - Sep. 2022. **International Conference on Enumerative Combinatorics and Applications**, Virtual.
 
