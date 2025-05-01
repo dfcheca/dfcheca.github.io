@@ -185,7 +185,7 @@ We have shown that $ I^e = Q_1^e \cap \cdots \cap Q_n^e $ is also minimal, there
 
 $$
 \begin{align*}
-    \operatorname{ass}_R[X]I^e
+    \operatorname{ass}_{R[X]}I^e
     =\left\{\sqrt{Q_i^e}:i\in\left\{1,\ldots,n\right\}\right\}=\left\{P^e: P \in \operatorname{ass}_R I\right\}.\tag*{$\blacksquare$}
 \end{align*}
 $$
