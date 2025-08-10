@@ -41,7 +41,7 @@ key: home
 
 ## Events
 
-- Aug. 2025. **International Conference on Enumerative Combinatorics and Applications**, Virtual. *Speaker*.
+- Aug. 2025. **International Conference on Enumerative Combinatorics and Applications**, Virtual. <a href="https://youtu.be/Nx5zMaFGThc" target="_blank">*Speaker*</a>.
 - Jun. 2025. **Días de Combinatoria**, Bogotá, Colombia.
 - Jul. 2024. **Colombian Encounter of Tropical and Non-archimedean Geometry**, Bogotá, Colombia.
 - Jun. 2024. **VIII ECCO - CIMPA Research School: Bridges between Algebra and Combinatorics**, Popayán, Colombia. <a href="posters/ecco2024.pdf" target="_blank">*Poster*</a>.
