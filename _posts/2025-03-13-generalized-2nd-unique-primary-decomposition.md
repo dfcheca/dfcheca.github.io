@@ -8,7 +8,7 @@ tags: ["Commutative Algebra", "Primary Decomposition"]
 
 ## Exercise 5.43
 
-Let $I$ be a decomposable ideal of the commutative ring R. Let
+Let $I$ be a decomposable ideal of the commutative ring $R$. Let
 
 $$
 I=Q_1 \cap \ldots \cap Q_n \quad \text { with } \sqrt{Q_i} =P_i \text { for } i=1, \ldots, n
@@ -26,15 +26,15 @@ depends only on $I$ and not on the choice of minimal primary decomposition of $I
 
 Let $I = Q_1' \cap \dots \cap Q_n'$ be another minimal primary decomposition of $I$. Define $k = \lvert\mathcal{P}\rvert$. Without loss of generality, we can reorder the terms in each intersection so that $\sqrt{Q_i} = \sqrt{Q_i'} = P_i \in \mathcal{P}$ for all $i = 1, \dots, k$, and such that $\sqrt{Q_i} = \sqrt{Q_i'}$ for all $i = k+1, \dots, n$.  
 
-If $k = 1$, there is nothing to prove, since a unique element $P \in \mathcal{P}$ implies that $P$ is minimal, and the result follows directly from the 2\textsuperscript{nd} Uniqueness Theorem of Primary Decomposition—\cite[Th. 4.29]{Sharp2001}. For the remainder of the proof, we assume that $k \geq 2$.  
+If $k = 1$, there is nothing to prove, since a unique element $P \in \mathcal{P}$ implies that $P$ is minimal, and the result follows directly from the 2<sup>nd</sup> Uniqueness Theorem of Primary Decomposition—\[[1](#Sharp2001), Th. 4.29\]. For the remainder of the proof, we assume that $k \geq 2$.  
 
-Let $j \in \{1, \dots, k\}$. Observe that $P_i \not\subseteq P_j$ for every $i = k+1, \dots, n$; otherwise, $P_i$ would belong to $\mathcal{P}$. By \cite[Lem. 3.55]{Sharp2001}, we conclude that  
+Let $j \in \{1, \dots, k\}$. Observe that $P_i \not\subseteq P_j$ for every $i = k+1, \dots, n$; otherwise, $P_i$ would belong to $\mathcal{P}$. By \[[1](#Sharp2001), Lem. 3.55\], we conclude that  
 
 $$
 \bigcap_{i=k+1}^{n} P_i \not\subseteq P_j.
 $$  
 
-From this, applying the Prime Avoidance Theorem—\cite[Lem. 3.61]{Sharp2001}, we obtain  
+From this, applying the Prime Avoidance Theorem—\[[1](#Sharp2001), Lem. 3.61\], we obtain  
 
 $$
 \bigcap_{i=k+1}^{n} P_i \not\subseteq \bigcup_{j=1}^{k} P_j.
@@ -43,7 +43,7 @@ $$
 That is, there exists an element  
 
 $$
-a \in \left(\bigcap_{i=k+1}^{n} P_i\right) \setminus \left(\bigcup_{j=1}^{k} P_j\right),
+a \in \left(\bigcap_{i=k+1}^{n} P_i\right) \mathbin{\big\backslash} \left(\bigcup_{j=1}^{k} P_j\right),
 $$  
 
 which means that  
@@ -60,7 +60,7 @@ $$
 t \geq \max \{ h_{k+1}, h_{k+1}', \dots, h_n, h_n' \}.
 $$  
 
-At this point, we note that $a^t \notin P_j$ for $j = 1, \dots, k$; otherwise, since $P_j$ is prime, this would imply $a \in P_j$, contradicting our earlier observation. Thus, by \cite[Lem. 4.14]{Sharp2001}, we deduce:  
+At this point, we note that $a^t \notin P_j$ for $j = 1, \dots, k$; otherwise, since $P_j$ is prime, this would imply $a \in P_j$, contradicting our earlier observation. Thus, by \[[1](#Sharp2001), Lem. 4.14\], we deduce:  
 
 $$
 \begin{align*}

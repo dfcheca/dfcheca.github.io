@@ -7,14 +7,20 @@
 
 <script>
   window.MathJax = {
-    loader: {load: ['[tex]/boldsymbol']},
+    loader: {
+      load: ['[tex]/boldsymbol','[tex]/bboldx']
+    },
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']],
       {% if _mathjax_autoNumber == true %}
       tags: "ams", //Not "all", as configured before
       {% endif %}
-      packages: {'[+]': ['boldsymbol']},
+      packages: {'[+]': ['boldsymbol', 'bboldx']},
+      bboldx: {
+        bfbb: false,
+        light: false
+      }
     }, //The following are new options in v. 4, disable if using v.3
     options: {
       speechTiming: {
@@ -33,7 +39,7 @@
       }
     },
     output: {
-      font: 'mathjax-modern' // Options (b.7): mathjax-modern (default), mathjax-asana, mathjax-bonum, mathjax-dejavu, mathjax-pagella, mathjax-schola, mathjax-termes, mathjax-stix2, mathjax-fira, mathjax-euler, mathjax-tex
+      font: 'mathjax-tex' // Options: mathjax-modern (default), mathjax-asana, mathjax-bonum, mathjax-dejavu, mathjax-pagella, mathjax-schola, mathjax-termes, mathjax-stix2, mathjax-fira, mathjax-euler, mathjax-tex
     }
   };
 </script>
