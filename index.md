@@ -20,8 +20,8 @@ key: home
   <div class="profile-description">
     <p>
       <b style="font-size: 22px; line-height: 0.5;">Mathematician </b> <br>
-      <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400">MSc. Student &nbsp; | &nbsp; Graduate Assistant &nbsp; | &nbsp; Uniandes </span> <br>
-      <a href="mailto:d.checa@uniandes.edu.co" style="font-family: 'Fira Code'; font-weight:500; font-size: 15px">d.checa@uniandes.edu.co</a>
+      <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400">MSc. Student <!-- &nbsp; | &nbsp; Graduate Assistant &nbsp; | &nbsp; Uniandes --> </span> <br>
+      <a href="mailto:dcheca@unal.edu.co" style="font-family: 'Fira Code'; font-weight:500; font-size: 15px">dcheca [at] unal [dot] edu [dot] co</a>
       <div style="height: 5px;"></div>
 
       Mathematician, sometimes photographer. My areas of interest are enumerative and algebraic combinatorics, as well as topics in discrete mathematics.
@@ -41,6 +41,7 @@ key: home
 
 ## Events
 
+- Aug. 2025. **International Conference on Enumerative Combinatorics and Applications**, Virtual. *Speaker*.
 - Jun. 2025. **Días de Combinatoria**, Bogotá, Colombia.
 - Jul. 2024. **Colombian Encounter of Tropical and Non-archimedean Geometry**, Bogotá, Colombia.
 - Jun. 2024. **VIII ECCO - CIMPA Research School: Bridges between Algebra and Combinatorics**, Popayán, Colombia. <a href="posters/ecco2024.pdf" target="_blank">*Poster*</a>.
