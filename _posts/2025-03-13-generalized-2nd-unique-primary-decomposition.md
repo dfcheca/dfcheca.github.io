@@ -14,7 +14,7 @@ $$
 I=Q_1 \cap \ldots \cap Q_n \quad \text { with } \sqrt{Q_i} =P_i \text { for } i=1, \ldots, n
 $$
 
-be a minimal primary decomposition of $I$. Let $\mathcal{P}$ be a non-empty subset of ass $I$ with the property that whenever $P \in \mathcal{P}$ and $P^{\prime} \in$ ass $I$ are such that $P^{\prime} \subseteq P$, then $P^{\prime} \in \mathcal{P}$ too (such a subset of ass $I$ is called an isolated subset of ass $I$ ). Show that
+be a minimal primary decomposition of $I$. Let $\mathcal{P}$ be a non-empty subset of $\operatorname{ass}I$ with the property that whenever $P \in \mathcal{P}$ and $P^{\prime} \in \operatorname{ass}I$ are such that $P^{\prime} \subseteq P$, then $P^{\prime} \in \mathcal{P}$ too (such a subset of $\operatorname{ass}I$ is called an isolated subset of $\operatorname{ass}I$). Show that
 
 $$
 \bigcap_{\substack{i=1 \\ P_i \in \mathcal{P}}}^n Q_i
