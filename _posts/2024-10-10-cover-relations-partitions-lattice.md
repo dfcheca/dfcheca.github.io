@@ -76,7 +76,7 @@ $$
 \end{align*}
 $$
 
-Thus, by comoparing coefficients, we have that
+Thus, by comparing coefficients, we have that
 
 $$c(m, n)=\frac{(m+n-1)!}{(m-1)!(n-1)!}$$
 
