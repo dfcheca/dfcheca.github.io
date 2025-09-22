@@ -62,8 +62,10 @@ key: home
 
 ## Work Experience
 
-- 2024 - Present. **Universidad de los Andes**, Graduate Assistant - Mathematics Department.
-- 2021 - 2023. **Universidad Nacional de Colombia**, Tutor - *Grupos de Estudio Autónomo* (GEA).
+- Aug. 2025 - Dec. 2025. **Universidad Nacional de Colombia - Sede Orinoquía**, Teaching Assistant.
+- Aug. 2024 - Jun. 2025. **Universidad de los Andes**, Graduate Assistant - Mathematics Department.
+- Jul. 2024 - Aug. 2025. **Moaddel Law Firm**, Translator and Interpreter.
+- Mar. 2021 - Jun. 2023. **Universidad Nacional de Colombia - Sede Bogotá**, Tutor - *Grupos de Estudio Autónomo* (GEA).
 
 <style>
 /* General styles */
