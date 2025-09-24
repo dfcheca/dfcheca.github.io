@@ -44,7 +44,7 @@ key: home
 - Aug. 2025. **International Conference on Enumerative Combinatorics and Applications**, Virtual. <a href="https://youtu.be/Nx5zMaFGThc" target="_blank">*Speaker*</a>.
 - Jun. 2025. **Días de Combinatoria**, Bogotá, Colombia.
 - Jul. 2024. **Colombian Encounter of Tropical and Non-archimedean Geometry**, Bogotá, Colombia.
-- Jun. 2024. **VIII ECCO - CIMPA Research School: Bridges between Algebra and Combinatorics**, Popayán, Colombia. <a href="posters/ecco2024.pdf" target="_blank">*Poster*</a>.
+- Jun. 2024. **VIII ECCO - CIMPA Research School: Bridges between Algebra and Combinatorics**, Popayán, Colombia. <a href="documents/ecco2024.pdf" target="_blank">*Poster*</a>.
 - Nov. 2023. **ALTENCOA 9**, Cali, Colombia. *Speaker*.
 - Sep. 2023. **ICMAM Latin America Satellite Conference on Algebra, Combinatorics and Number Theory**, Virtual.
 - Sep. 2023. **International Conference on Enumerative Combinatorics and Applications**, Virtual.
@@ -54,8 +54,8 @@ key: home
 
 ## Education
 
-- 2024 - Present. **Universidad de los Andes**, MSc. Mathematics.
-- 2018 - 2023. **Universidad Nacional de Colombia**, BSc. Mathematics.<br>
+- Aug. 2024 - Present. **Universidad de los Andes**, MSc. Mathematics.
+- Jan. 2018 - Dec. 2023. **Universidad Nacional de Colombia**, BSc. Mathematics.<br>
   ***Thesis***: (2023) <a href="https://oeis.org/A000045/a000045_3.pdf" target="_blank">*Arndt Compositions: Connections with Fibonacci Numbers, Statistics, and Generalizations*</a>.
   - Awarded as the <a href="https://pregrado.unal.edu.co/media/pdf_docs/mejores_trabajos/Res_010__2024_VA.pdf" target="_blank">Best Mathematics Bachelor's Thesis</a> in 2024.
   - One of the <a href="https://www.acreditta.com/credential/1490ec10-df23-44e9-9b65-9c5ca85c21c5?utm_source=copy&resource_type=badge&resource=1490ec10-df23-44e9-9b65-9c5ca85c21c5" target="_blank">Best National State Tests</a> (Saber Pro) - 2022.
