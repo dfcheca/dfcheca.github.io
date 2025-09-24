@@ -57,7 +57,7 @@ key: home
 - Aug. 2024 - Present. **Universidad de los Andes**, MSc. Mathematics.
 - Jan. 2018 - Dec. 2023. **Universidad Nacional de Colombia**, BSc. Mathematics.<br>
   ***Thesis***: (2023) <a href="https://oeis.org/A000045/a000045_3.pdf" target="_blank">*Arndt Compositions: Connections with Fibonacci Numbers, Statistics, and Generalizations*</a>.
-  - Awarded as the <a href="https://pregrado.unal.edu.co/media/pdf_docs/mejores_trabajos/Res_010__2024_VA.pdf" target="_blank">Best Mathematics Bachelor's Thesis</a> in 2024.
+  - Awarded as the <a href="documents/Res_010__2024_VA.pdf" target="_blank">Best Mathematics Bachelor's Thesis</a> in 2024.
   - One of the <a href="https://www.acreditta.com/credential/1490ec10-df23-44e9-9b65-9c5ca85c21c5?utm_source=copy&resource_type=badge&resource=1490ec10-df23-44e9-9b65-9c5ca85c21c5" target="_blank">Best National State Tests</a> (Saber Pro) - 2022.
 
 ## Work Experience
