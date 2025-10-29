@@ -58,7 +58,7 @@ Let's prove both implications:
     
     is pure of dimension $d-2$.  
     
-    Let $H_1, \ldots, H_k$ be the facets of this intersection. Since each $H_j$ has dimension $d-2$ and is contained in the facet $F_i$, we can write $H_j = F_i \setminus \{ a_j\}$, for some vertex $a_j \in F_i$.
+    Let $H_1, \ldots, H_k$ be the facets of this intersection. Since each $H_j$ has dimension $d-2$ and is contained in the facet $F_i$, we can write $H_j = F_i \setminus \lbrace a_j\rbrace$, for some vertex $a_j \in F_i$.
     
     We claim that the set
     
