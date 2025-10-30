@@ -29,6 +29,11 @@ layout: page
   {%- endif -%}
 {%- endfor -%}
 
+{%- comment -%} Si paginator existe, usar solo los posts de la página actual {%- endcomment -%}
+{%- if paginator and paginator.posts -%}
+  {%- assign _articles = paginator.posts -%}
+{%- endif -%}
+
 {%- assign _type = page.articles.type | default: layout.articles.type -%}
 
 {%- if _articles -%}
@@ -87,3 +92,10 @@ layout: page
 {%- endif -%}
 
 {{ content }}
+
+<script>
+  // Redirige /blog/page/1/ a /blog/
+  if (window.location.pathname === "/blog/page/1/") {
+    window.location.replace("/blog/");
+  }
+</script>

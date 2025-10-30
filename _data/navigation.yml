@@ -10,8 +10,12 @@ header:
 
   - titles:
       en      : &EN       Blog
+    url: /blog/
+  
+  - titles:
+      en      : &EN       Archive
     url: /archive.html
   
   - titles:
-      en      : &EN       Watch
-    url: https://youtu.be/xvFZjo5PgG0
+      en      : &EN       Listen 
+    url: https://youtu.be/Eo7Dw0wbHgA

@@ -96,8 +96,14 @@ chart: # false (default), true
 
 ## => Paginate
 ##############################
-paginate: 8
-paginate_path: /page:num # don't change this unless for special need
+pagination:
+  enabled: true
+  per_page: 3
+  collection: posts
+  permalink: "/blog/page/:num/"
+  indexpage: "index.html"
+  sort_field: "date"
+  sort_reverse: true
 
 
 ## => Sources
@@ -220,6 +226,6 @@ defaults:
 ##############################
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jemoji

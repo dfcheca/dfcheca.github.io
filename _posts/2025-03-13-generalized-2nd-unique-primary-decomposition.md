@@ -28,7 +28,7 @@ Let $I = Q_1' \cap \dots \cap Q_n'$ be another minimal primary decomposition of 
 
 If $k = 1$, there is nothing to prove, since a unique element $P \in \mathcal{P}$ implies that $P$ is minimal, and the result follows directly from the 2<sup>nd</sup> Uniqueness Theorem of Primary Decomposition—\[[1](#Sharp2001), Th. 4.29\]. For the remainder of the proof, we assume that $k \geq 2$.  
 
-Let $j \in \{1, \dots, k\}$. Observe that $P_i \not\subseteq P_j$ for every $i = k+1, \dots, n$; otherwise, $P_i$ would belong to $\mathcal{P}$. By \[[1](#Sharp2001), Lem. 3.55\], we conclude that  
+Let $j \in \lbrace 1, \dots, k\rbrace$. Observe that $P_i \not\subseteq P_j$ for every $i = k+1, \dots, n$; otherwise, $P_i$ would belong to $\mathcal{P}$. By \[[1](#Sharp2001), Lem. 3.55\], we conclude that  
 
 $$
 \bigcap_{i=k+1}^{n} P_i \not\subseteq P_j.
