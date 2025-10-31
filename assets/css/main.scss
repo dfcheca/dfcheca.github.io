@@ -6,8 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
 
 @import
 
@@ -79,3 +78,23 @@
 
     "custom"
 ;
+
+/* scrollbar personalizado */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3498db;
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #3498db #f0f0f0;
+}

@@ -26,3 +26,24 @@
     max-width: 100%;
   }
 }
+
+
+/* estilos.css */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3498db;
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #3498db #f0f0f0;
+}
