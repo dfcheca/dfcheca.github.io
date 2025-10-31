@@ -41,4 +41,4 @@ such that each $G_{i-1}/G_i$ is cyclic. <span style="float: right;">$\blacksquar
 
 1. <a id="LawrenceZorzitto2021"></a> Lawrence, J. W., & Zorzitto, F. A. (2021). *Abstract Algebra: A Comprehensive Introduction*. Cambridge University Press. <a href="https://doi.org/10.1017/9781108874328" target="_blank">https://doi.org/10.1017/9781108874328</a>
 
-[^Footnote1]: Every group of prime order is cyclic. Indeed, if $G$ has prime order, it has at least two elements. If we take $g$ different from the identity element, the order of $\gen{g}$ divides the order of $G$, but since the latter is prime, it must be that $G=\gen{g}$.
+[^Footnote1]: Every group of prime order is cyclic. Indeed, if $G$ has prime order, it has at least two elements. If we take $g$ different from the identity element, the order of $\langle g\rangle$ divides the order of $G$, but since the latter is prime, it must be that $G=\langle g\rangle$.
