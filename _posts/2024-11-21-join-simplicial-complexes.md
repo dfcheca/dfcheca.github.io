@@ -50,7 +50,9 @@ Let $ d = \dim\Gamma + 1 $ and $ e = \dim\Delta + 1 $.
     
     Comparing coefficients, we finally obtain  
     
-    $$h_k(\Gamma*\Delta)=\sum_{i+j=k}h_i(\Gamma)h_j(\Delta)$$ for every $k=0,\ldots,d+e$.
+    $$h_k(\Gamma*\Delta)=\sum_{i+j=k}h_i(\Gamma)h_j(\Delta)$$
+    
+    for every $k=0,\ldots,d+e$.
 
 2. Since the vertex sets of $\Gamma$ and $\Delta$ are disjoint, the nonfaces of $\Gamma * \Delta$ are precisely those of $\Gamma$ and $\Delta$, making the Stanley–Reisner ideal decomposable as $I_\Gamma + I_\Delta$. This naturally leads to $K[\Gamma * \Delta] \cong K[\Gamma] \otimes_K K[\Delta],$ whence $ \dim K[\Gamma * \Delta] = \dim K[\Gamma] + \dim K[\Delta] = d + e.$
     Now let $\theta_1,\ldots, \theta_d\in K[\Gamma]_1$ and $\eta_1,\ldots, \eta_e \in K[\Delta]_1$ be maximal regular sequences. We also have

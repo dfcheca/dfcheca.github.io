@@ -1,6 +1,6 @@
 ---
 title: Equivalence Between the Definitions of Solvable Group
-tags: ["Group Theory"]
+tags: ["Group Theory", "Galois Theory"]
 ---
 
 ## Introduction
