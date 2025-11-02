@@ -7,8 +7,7 @@ tags: ["Group Theory", "Galois Theory"]
 
 We will prove that the regular heptadecagon, a polygon with 17 equal sides, is constructible with ruler and compass. It is enough to prove that the number $\cos\left(\frac{2\pi}{17}\right)$ is <a href="https://en.wikipedia.org/wiki/Constructible_number" target="_blank">constructible</a>. The procedure will follow the idea given by Gauss, who summed the roots of unity to express this quantity in terms of roots—Gaussian periods.
 
-
-## Expression in radicals of $\cos\left(\frac{2\pi}{17}\right)$
+## Expression in Radicals of $\cos\left(\frac{2\pi}{17}\right)$
 
 Let $\zeta=e^{2\pi i/17}$, the primitive root of the polynomial
 
@@ -18,12 +17,11 @@ $$
 \end{align}
 $$
 
-It is known that the set of the other 16 primitive roots is $\langle\zeta\rangle$. This is a multiplicative group isomorphic to $\mathbb{Z}^\*\_{17}$. You can verify that $\mathbb{Z}^\*\_{17}=\langle 3\rangle$.
+The field $\mathbb{Q}(\zeta)$ is a Galois extension of $\mathbb{Q}$ whose Galois group is isomorphic to the multiplicative group $\mathbb{Z}^\*\_{17}$. You can verify that $\mathbb{Z}^\*\_{17}\cong\langle 3\rangle$. *If you are not familiar with Galois theory, the essence of this argument is that each time you multiply a primitive root by $\zeta$, you move to the next vertex of the heptadecagon in the counterclockwise direction.*
 
-
-| $n$     | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $8$ | $9$ | $10$ | $11$ | $12$ | $13$ | $14$ | $15$ | $16$ | $17$ |
-|:--------|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-| $3^n$   | $1$ | $3$ | $9$ | $10$ | $13$ | $5$ | $15$ | $11$ | $16$ | $14$ | $8$ | $7$ | $4$ | $12$ | $2$ | $6$ | $1$ | $3$ |
+| $n$     | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $8$ | $9$ | $10$ | $11$ | $12$ | $13$ | $14$ | $15$ |
+|:--------|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:-----|:-----|:-----|:-----|:-----|:-----|
+| $3^n \bmod 17$   | $1$ | $3$ | $9$ | $10$ | $13$ | $5$ | $15$ | $11$ | $16$ | $14$ | $8$ | $7$ | $4$ | $12$ | $2$ | $6$ |
 
 
 Motivated by the fact that $\langle 3^{16}\rangle\triangleright \langle 3^8\rangle\triangleright\langle 3^4\rangle\triangleright\langle 3^2\rangle\triangleright\langle 3\rangle$, we consider the cosets $\langle 3^2\rangle$ and $3\langle 3^2\rangle$ as a starting point to define the sums
@@ -39,14 +37,13 @@ $$
 \end{align}
 $$
 
-
 <p style="text-align: center;">
   <img src="/assets/images/heptadecagon.jpg" alt="Image" class="border">
 </p>
 
 
 
-By the way these sums have been chosen in the complex plane —some summands are conjugate roots—, we can state that $x_1,x_2,y_1,y_2,y_3,y_4$ are all real, and that $x_1>x_2,y_1>y_2,y_3>y_4$ —see the figure above. From \eqref{polf} we know that
+By the way these sums have been chosen in the complex plane —some summands are conjugate roots, we can state that $x_1,x_2,y_1,y_2,y_3,y_4$ are all real, and that $x_1>x_2,y_1>y_2,y_3>y_4$ —see the figure above. From \eqref{polf} we know that
 
 $$
 x_1+x_2=-1.
@@ -173,7 +170,7 @@ $$
 Proving that indeed, this cosine is a constructible number.
 
 
-## Construction of the field tower
+## Construction of the Field Tower
 
 From the way we have constructed the cosine, the following field tower consists of quadratic extensions
 

@@ -203,8 +203,10 @@
     }
   }
   table {
-    display: block;
-    width: 100%;
+    display: table;
+    margin-left: auto;    // Horizontal centered
+    margin-right: auto;
+    //width: 100%; // In case you want to use the full width
     border-collapse: collapse;
     @include overflow(auto);
     thead, tfoot {
