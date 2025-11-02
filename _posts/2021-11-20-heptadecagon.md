@@ -41,8 +41,6 @@ $$
   <img src="/assets/images/heptadecagon.jpg" alt="Image" class="border">
 </p>
 
-
-
 By the way these sums have been chosen in the complex plane —some summands are conjugate roots, we can state that $x_1,x_2,y_1,y_2,y_3,y_4$ are all real, and that $x_1>x_2,y_1>y_2,y_3>y_4$ —see the figure above. From \eqref{polf} we know that
 
 $$
@@ -76,7 +74,7 @@ $$
 \end{align}
 $$
 
-The goal from now on will be to repeat this procedure on $x_2,y_1,y_2,y_3,y_4$ in order to obtain their radical expressions. Similarly, for $y_1$ and $y_2$ we obtain that $y_1+y_2=x_1$ and
+The goal from now on will be to repeat this procedure on $y_1,y_2,y_3,y_4$ in order to obtain their radical expressions. Similarly, for $y_1$ and $y_2$ we obtain that $y_1+y_2=x_1$ and
 
 $$
 \begin{align*}
