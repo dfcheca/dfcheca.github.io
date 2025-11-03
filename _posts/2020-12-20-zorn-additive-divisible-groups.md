@@ -65,7 +65,7 @@ It cannot happen that $p\mid m$, because otherwise, there would exist $k\in \mat
 
 Thus $\gcd(m,p)=1$. By Bézout's lemma, there exist $\alpha,\beta \in\mathbb{Z}$ such that $\alpha m+\beta p =1$. Multiplying by $z$, yields
 
-$$z=\alpha mz+\beta pz =\alpha(a'-b')+\left[\alpha(-b')+\beta(-b)\right].$$
+$$z=\alpha mz+\beta pz =\alpha(a'-b')+\beta(-b)=\alpha a' +\left[\alpha(-b')+\beta(-b)\right].$$
 
 We obtain that $\alpha a'\in A$ and $\left[\alpha(-b')+\beta(-b)\right]\in B$, contradicting that $z\notin A+B$.
 

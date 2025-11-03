@@ -17,7 +17,7 @@ $$
 \end{align}
 $$
 
-The field $\mathbb{Q}(\zeta)$ is a Galois extension of $\mathbb{Q}$ whose Galois group is isomorphic to the multiplicative group $\mathbb{Z}^\*\_{17}$. You can verify that $\mathbb{Z}^\*\_{17}\cong\langle 3\rangle$. *If you are not familiar with Galois theory, the essence of this argument is that each time you multiply a primitive root by $\zeta$, you move to the next vertex of the heptadecagon in the counterclockwise direction.*
+The field $\mathbb{Q}(\zeta)$ is a Galois extension of $\mathbb{Q}$ whose Galois group is isomorphic to the multiplicative group $\mathbb{Z}^\*\_{17}$. You can verify that $\mathbb{Z}^\*\_{17}=\langle 3\rangle$. *If you are not familiar with Galois theory, the essence of this argument is that each time you multiply a primitive root by $\zeta$, you move to the next vertex of the heptadecagon in the counterclockwise direction.*
 
 | $n$     | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $8$ | $9$ | $10$ | $11$ | $12$ | $13$ | $14$ | $15$ |
 |:--------|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -29,11 +29,11 @@ Motivated by the fact that $\langle 3^{16}\rangle\triangleright \langle 3^8\rang
 $$
 \begin{align}
     x_1&=\sum_{k\in\langle 3^2\rangle}\zeta^k=\zeta+\zeta^9+\zeta^{13}+\zeta^{15}+\zeta^{16}+\zeta^8+\zeta^4+\zeta^2,\label{x1}\\
-    x_2&=\sum_{k\in\langle 3^2\rangle}\zeta^k=\zeta^3+\zeta^{10}+\zeta^5+\zeta^{11}+\zeta^{14}+\zeta^7+\zeta^{12}+\zeta^6,\label{x2}\\
+    x_2&=\sum_{k\in 3\langle 3^2\rangle}\zeta^k=\zeta^3+\zeta^{10}+\zeta^5+\zeta^{11}+\zeta^{14}+\zeta^7+\zeta^{12}+\zeta^6,\label{x2}\\
     y_1&=\sum_{k\in\langle 3^4\rangle}\zeta^k=\zeta+\zeta^{13}+\zeta^{16}+\zeta^4,\label{y1}\\
-    y_2&=\sum_{k\in\langle 3^4\rangle}\zeta^k=\zeta^9+\zeta^{15}+\zeta^8+\zeta^2,\label{y2}\\
-    y_3&=\sum_{k\in\langle 3^4\rangle}\zeta^k=\zeta^3+\zeta^5+\zeta^{14}+\zeta^{12},\label{y3}\\
-    y_4&=\sum_{k\in\langle 3^4\rangle}\zeta^k=\zeta^{10}+\zeta^{11}+\zeta^7+\zeta^6.\label{y4}
+    y_2&=\sum_{k\in 3^2\langle 3^4\rangle}\zeta^k=\zeta^9+\zeta^{15}+\zeta^8+\zeta^2,\label{y2}\\
+    y_3&=\sum_{k\in 3\langle 3^4\rangle}\zeta^k=\zeta^3+\zeta^5+\zeta^{14}+\zeta^{12},\label{y3}\\
+    y_4&=\sum_{k\in 3^3\langle 3^4\rangle}\zeta^k=\zeta^{10}+\zeta^{11}+\zeta^7+\zeta^6.\label{y4}
 \end{align}
 $$
 
