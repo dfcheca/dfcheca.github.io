@@ -24,7 +24,7 @@ The field $\mathbb{Q}(\zeta)$ is a Galois extension of $\mathbb{Q}$ whose Galois
 | $3^n \bmod 17$   | $1$ | $3$ | $9$ | $10$ | $13$ | $5$ | $15$ | $11$ | $16$ | $14$ | $8$ | $7$ | $4$ | $12$ | $2$ | $6$ |
 
 
-Motivated by the fact that $\langle 3^{16}\rangle\triangleright \langle 3^8\rangle\triangleright\langle 3^4\rangle\triangleright\langle 3^2\rangle\triangleright\langle 3\rangle$, we consider the cosets $\langle 3^2\rangle$ and $3\langle 3^2\rangle$ as a starting point to define the sums
+Motivated by the fact that $\lbrace 0\rbrace=\langle 3^{16}\rangle\triangleright \langle 3^8\rangle\triangleright\langle 3^4\rangle\triangleright\langle 3^2\rangle\triangleright\langle 3\rangle$, we consider the cosets $\langle 3^2\rangle$ and $3\langle 3^2\rangle$ as a starting point to define the sums
 
 $$
 \begin{align}
@@ -38,7 +38,7 @@ $$
 $$
 
 <p style="text-align: center;">
-  <img src="/assets/images/heptadecagon.jpg" alt="Image" class="border">
+  <img src="/assets/images/heptadecagon.svg" alt="Roots of $f(t)=t^{17}-1$ in the Complex Plane" class="border">
 </p>
 
 By the way these sums have been chosen in the complex plane —some summands are conjugate roots, we can state that $x_1,x_2,y_1,y_2,y_3,y_4$ are all real, and that $x_1>x_2,y_1>y_2,y_3>y_4$ —see the figure above. From \eqref{polf} we know that
