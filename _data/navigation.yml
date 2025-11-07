@@ -11,6 +11,10 @@ header:
   - titles:
       en      : &EN       Blog
     url: /blog/
+
+  - titles:
+      en      : &EN       OEIS Seqs.
+    url: /oeis.html
   
   - titles:
       en      : &EN       Archive
