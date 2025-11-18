@@ -37,7 +37,7 @@ $$
 \end{align*}
 $$
 
-Note that the coefficients are increasing up to $q^u$, the maximal coefficient is $u+1$, and they decrease down to $q^{u+v}$, showing that the product is unimodal. Also note that $[q^t]P(q)=[q^{u+v-t}]P(q)$ for every $t$, showing that this product is also symmetric with center $\left\lfloor(u+v)/2\right\rfloor$
+Note that the coefficients are increasing up to $q^u$, the maximal coefficient is $u+1$, and they decrease down to $q^{u+v}$, showing that the product is unimodal. Also note that $[q^t]P(q)=[q^{u+v-t}]P(q)$ for every $t$, showing that this product is also symmetric with center $\left\lfloor(u+v)/2\right\rfloor$.
 
 Now let us prove the general statement: let $F(q)=\sum_{i=0}^m a_iq^i$ and $G(q)=\sum_{j=0}^n b_j q^j$, with each $a_i,b_j\geq 0$. We proceed as in [Proposition 1, [2](#Stanley1989)]. Let $ r = \lfloor m/2 \rfloor $, then by symmetry we have $a_i=a_{m-i}$ for every $0\leq i\leq r$. For convenience, we consider $a_{-1}:=b_{-1}:=0$. We separate the summands of $F(q)$ around $r$ and rewrite this sum as
 
