@@ -38,7 +38,7 @@ Let $ d = \dim\Gamma + 1 $ and $ e = \dim\Delta + 1 $.
     
     $$
     \begin{align*}
-        \left(\sum_{i=0}^d h_i(\Gamma)(x+1)^{d-i}\right)\left(\sum_{j=0}^e h_j(\Gamma)(x+1)^{e-j}\right)
+        \left(\sum_{i=0}^d h_i(\Gamma)(x+1)^{d-i}\right)\left(\sum_{j=0}^e h_j(\Delta)(x+1)^{e-j}\right)
         &=\sum_{k=0}^{d+e}h_k(\Gamma*\Delta)(x+1)^{d+e-k}.
     \end{align*}
     $$
