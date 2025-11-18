@@ -59,7 +59,7 @@ Now, each polynomial $(q^i + \cdots + q^{m-i})(q^j + \cdots + q^{n-j}) = q^{i+j}
 
 ### Note 
 
-The reason Stanley states that it is easy to prove symmetry is because a polynomial $P(q)$ is symmetric if and only if it is equal to its reverse $q^m P(1/q)$ where $m$ is the sum of the highest and lowest powers of $P(q)$. Thus, if $F(q)$ and $G(q)$ are symmetric polynomials of degrees $m$ and $n$ respectively, their product will have degree $m+n$. Therefore, if we define $H(q) := F(q)G(q)$, we have that
+The reason Stanley states that it is easy to prove symmetry is because a polynomial $P(q)$ is symmetric if and only if it is equal to its reverse $q^m P(1/q)$ where $m$ is the sum of the highest and lowest powers of $P(q)$. Thus, if we define $H(q) := F(q)G(q)$, we have that
 
 $$q^{n+m} H(1/q) = q^n F(1/q) \cdot q^m G(1/q) = F(q)G(q) = H(q),$$
 
