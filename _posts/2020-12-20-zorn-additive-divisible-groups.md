@@ -1,6 +1,7 @@
 ---
 title: Divisible Abelian Groups as Direct Summands via Zorn's Lemma
 tags: ["Group Theory"]
+key: zorn-additive-divisible-groups
 ---
 
 ## Introduction

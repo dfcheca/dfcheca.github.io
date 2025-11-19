@@ -1,6 +1,7 @@
 ---
 title: Construction of the Regular Heptadecagon With Ruler and Compass
 tags: ["Group Theory", "Galois Theory"]
+key: heptadecagon
 ---
 
 ## Introduction
