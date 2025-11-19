@@ -1,6 +1,6 @@
 ---
 title: The Join Operation for Simplicial Complexes
-tags: ["Algebraic Combinatorics", "Simplicial Complexes"]}
+tags: ["Algebraic Combinatorics", "Simplicial Complexes"]
 key: join-simplicial-complexes
 
 ---

@@ -17,15 +17,10 @@ articles:
   show_info: true
 ---
 
-{% assign posts_to_show = paginator.posts %}
-{% include article-list.html articles=posts_to_show %}
-
-<br>
-{% include paginator.html paginator=paginator %}
-<br>
-
 {%- include snippets/get-sources.html -%}
 {%- assign _sources = __return -%}
+
+{% assign posts_to_show = paginator.posts %}
 
 {%- assign _LEANCLOUD_APP_ID = site.pageview.leancloud.app_id -%}
 {%- assign _LEANCLOUD_APP_KEY = site.pageview.leancloud.app_key -%}
@@ -56,3 +51,9 @@ articles:
   </script>
 
 {%- endif -%}
+
+{% include article-list.html articles=posts_to_show %}
+
+<br>
+{% include paginator.html paginator=paginator %}
+<br>
