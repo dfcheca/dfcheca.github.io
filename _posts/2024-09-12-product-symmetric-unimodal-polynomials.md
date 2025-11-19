@@ -1,6 +1,7 @@
 ---
 title: Why the Product of Symmetric Unimodal Polynomials is Also Symmetric Unimodal
 tags: ["Algebraic Combinatorics", "Generating Functions"]
+key: product-symmetric-unimodal-polynomials
 
 ---
 

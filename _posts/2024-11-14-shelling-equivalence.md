@@ -1,6 +1,7 @@
 ---
 title: Characterization of Shellings via Pure Intersections
 tags: ["Algebraic Combinatorics", "Simplicial Complexes"]
+key: shelling-equivalence
 
 ---
 

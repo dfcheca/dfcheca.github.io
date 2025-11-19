@@ -1,6 +1,7 @@
 ---
 title: Counting Cover Relations in the Lattice of Partitions $L(m,n)$
 tags: ["Partitions", "Generating Functions", "Algebraic Combinatorics"]
+key: cover-relations-partitions-lattice
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Primary Ideals and Their Extensions in Polynomial Rings
 tags: ["Commutative Algebra", "Primary Decomposition"]
+key: primary-ideal-extension-pol-ring
 
 ---
 

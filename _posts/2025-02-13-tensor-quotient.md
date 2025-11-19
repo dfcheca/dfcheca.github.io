@@ -1,7 +1,7 @@
 ---
 title: Tensoring with Quotients
 tags: ["Commutative Algebra", "Tensor Product"]
-
+key: tensor-quotient
 ---
 
 ***Taken from:*** (?).

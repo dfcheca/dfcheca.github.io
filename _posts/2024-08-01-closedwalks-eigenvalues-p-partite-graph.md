@@ -1,6 +1,8 @@
 ---
 title: Counting Closed Walks and Determining Eigenvalues in Complete \( p \)-Partite Graphs \( K(n,p) \)
 tags: ["Algebraic Combinatorics", "Graph Theory", "Adjacency Matrix"]
+key: closedwalks-eigenvalues-p-partite-graph
+
 ---
 
 ***Taken from:*** \[[1](#Stanley2018), Exercise 1.6\].

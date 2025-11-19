@@ -1,6 +1,7 @@
 ---
 title: Generalization of the Second Uniqueness Theorem for Primary Decomposition
 tags: ["Commutative Algebra", "Primary Decomposition"]
+key: generalized-2nd-unique-primary-decomposition
 
 ---
 

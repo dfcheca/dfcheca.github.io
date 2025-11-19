@@ -1,6 +1,7 @@
 ---
 title: Spectral Relations Between the Laplacian and the Adjacency Matrix in Regular Bipartite Graphs
 tags: ["Algebraic Combinatorics", "Graph Theory", "Adjacency Matrix", "Laplacian Matrix"]
+key: eigenvalues-laplacian-bipartite
 
 ---
 

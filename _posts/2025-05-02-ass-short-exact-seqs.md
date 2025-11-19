@@ -1,6 +1,7 @@
 ---
 title: Associated Primes in Short Exact Sequences
 tags: ["Commutative Algebra", "Associated Primes"]
+key: ass-short-exact-seqs
 
 ---
 

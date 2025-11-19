@@ -1,7 +1,7 @@
 ---
 title: Number of Closed Walks in the Complete Graph $K_p$
 tags: ["Algebraic Combinatorics", "Graph Theory", "Adjacency Matrix"]
-key: equivalence-solvable-groups
+key: closedwalks-completegraph
 
 ---
 

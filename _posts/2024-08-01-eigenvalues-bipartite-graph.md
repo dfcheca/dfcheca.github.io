@@ -1,6 +1,7 @@
 ---
 title: Eigenvalue Pairing in Bipartite Graphs
 tags: ["Algebraic Combinatorics", "Graph Theory", "Adjacency Matrix"]
+key: eigenvalues-bipartite-graph
 ---
 
 ***Taken from:*** \[[1](#Stanley2018), Exercise 1.3\].
