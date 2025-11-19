@@ -147,13 +147,13 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : s418s3h5McZJHiQ1rvVTkbf7-MdYXbMMI # LeanCloud App id
+    app_key   : umFKiCtQSuXW0zcQ8StHZYSA # LeanCloud App key
+    app_class : PageView # LeanCloud App class
 
 
 ## => Search
@@ -173,7 +173,7 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id : G-V5TT4LKYFM # Google Analytics id for the site
+    tracking_id : G-V5TT4LKYFM # Google Analytics id for the site ("Measurement Id" in V4)
     anonymize_ip: true # Anonymize IP tracking for Analytics
 
 
