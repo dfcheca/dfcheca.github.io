@@ -44,9 +44,13 @@ Now let us prove the general statement: let $F(q)=\sum_{i=0}^m a_iq^i$ and $G(q)
 $$
 \begin{align*}
     F(q)
+    &=\sum_{i=0}^{r-1}a_iq^i+a_r\sum_{k=r}^{m-r}q^k+\sum_{i=0}^{r-1}a_{m-i}q^{m-i}\\
     &=\sum_{i=0}^{r-1}a_iq^i+a_r\sum_{k=r}^{m-r}q^k+\sum_{i=0}^{r-1}a_iq^{m-i}\\
     &=a_r\sum_{k=r}^{m-r}q^k+\sum_{i=0}^{r-1}a_i(q^i+q^{m-i})\\
-    &=(a_r-a_{r-1})\sum_{k=r}^{m-r}q^k+\sum_{i=0}^{r-1}\sum_{k=i}^{m-i}a_iq^k-\sum_{i=0}^{r-2}\sum_{k=i+1}^{m-i-1}a_iq^k\\
+    &=a_r\sum_{k=r}^{m-r}q^k+\sum_{i=0}^{r-1}a_i\left(\sum_{k=i}^{m-i}q^k-\sum_{k=i+1}^{m-i-1}q^k\right)\\
+    &=a_r\sum_{k=r}^{m-r}q^k+\sum_{i=0}^{r-1}\sum_{k=i}^{m-i}a_iq^k-\sum_{i=0}^{r-2}\sum_{k=i+1}^{m-i-1}a_iq^k-a_{r-1}\sum_{k=r}^{m-r}q^k\\
+    &=(a_r-a_{r-1})\sum_{k=r}^{m-r}q^k+\sum_{i=0}^{r-1}\sum_{k=i}^{m-i}a_iq^k-\sum_{i={\color{red}{1}}}^{r-1}\sum_{k=i}^{m-i}a_{i-1}q^k\\
+    &=(a_r-a_{r-1})\sum_{k=r}^{m-r}q^k+\sum_{i=0}^{r-1}\sum_{k=i}^{m-i}a_iq^k-\sum_{i={\color{red}{0}}}^{r-1}\sum_{k=i}^{m-i}a_{i-1}q^k\\
     &=\sum_{i=0}^r\sum_{k=i}^{m-i} (a_i-a_{i-1})q^k.
 \end{align*}
 $$
@@ -55,9 +59,9 @@ Similarly, if $ s = \lfloor n/2 \rfloor $, we have that $G(q)=\sum_{j=0}^s\sum_{
 
 $$F(q)G(q)=\sum_{i=0}^r\sum_{j=0}^s(a_i-a_{i-1})(b_j-b_{j-1})(q^i+\cdots+q^{m-i})(q^j+\cdots+q^{n-j}).$$
 
-Now, each polynomial $(q^i + \cdots + q^{m-i})(q^j + \cdots + q^{n-j}) = q^{i+j}\left(1+q+\cdots+q^{m-2i}\right)\left(1+q+\cdots+q^{n-2j}\right)$ is symmetric and unimodal by the result above when taking $u= m-2i$ and $v=n-2j$. By hypothesis, $(a_i - a_{i-1})(b_j - b_{j-1}) \geq 0$ for each summand, so $F(q)G(q)$ is unimodal, and symmetric with center $\left\lfloor(m+n)/2\right\rfloor$. <span style="float: right;">$\blacksquare$</span>
+Now, each polynomial $(q^i + \cdots + q^{m-i})(q^j + \cdots + q^{n-j}) = q^{i+j}\left(1+q+\cdots+q^{m-2i}\right)\left(1+q+\cdots+q^{n-2j}\right)$ is symmetric with center $\left\lfloor(m+n)/2\right\rfloor$ and unimodal by the result above when taking $u= m-2i$ and $v=n-2j$. By hypothesis, $(a_i - a_{i-1})(b_j - b_{j-1}) \geq 0$ for each summand, so $F(q)G(q)$ is unimodal, and symmetric with center $\left\lfloor(m+n)/2\right\rfloor$. <span style="float: right;">$\blacksquare$</span>
 
-### Note 
+### Note
 
 The reason Stanley states that it is easy to prove symmetry is because a polynomial $P(q)$ is symmetric if and only if it is equal to its reverse $q^m P(1/q)$ where $m$ is the sum of the highest and lowest powers of $P(q)$. Thus, if we define $H(q) := F(q)G(q)$, we have that
 
