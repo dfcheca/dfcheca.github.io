@@ -9,7 +9,6 @@ titles:
   en-AU   : *EN
   # @end locale config
 show_title: false
-key: home
 ---
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px;">
