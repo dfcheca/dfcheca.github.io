@@ -38,7 +38,9 @@
 		// MathJax Observer in Comments
 		var target = document.getElementById('js-gitalk-container');
 		var observer = new MutationObserver(function(mutations) {
+		if (window.MathJax && MathJax.typesetPromise) {
 			MathJax.typesetPromise();
+		}
 		});
 		observer.observe(target, { childList: true, subtree: true });
 	</script>
