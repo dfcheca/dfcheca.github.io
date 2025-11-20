@@ -40,7 +40,6 @@
 		var observer = new MutationObserver(function(mutations) {
 			MathJax.typesetPromise();
 		});
-
 		observer.observe(target, { childList: true, subtree: true });
 	</script>
 
