@@ -16,25 +16,24 @@
       {% if _mathjax_autoNumber == true %}
       tags: "ams", //Not "all", as configured before
       {% endif %}
-      packages: {'[+]': ['boldsymbol', 'bboldx']},
+      packages: {'[+]': ['ams', 'boldsymbol', 'bboldx', 'cases', 'newcommand', 'extpfeil', 'a11y/semantic-enrich', 'a11y/speech', 'a11y/braille']},
       bboldx: {
         bfbb: false,
         light: false
       }
     }, //The following are new options in v. 4, disable if using v.3
     options: {
-      speechTiming: {
-          asynchronous: true, // true to allow screen updates while adding speech, false to not
-          initial: 100, // initial delay (in milliseconds) until starting to add speech
-          threshold: 250, // time (in milliseconds) to process speech before letting screen update
-          intermediate: 10 // delay (in milliseconds) after processing speech reaches the threshold
-      },
       enableEnrichment: true,   // false to disable accesibility enrichment
+      enrichError: (doc, math, err) => doc.enrichError(doc, math, err),  // function to call if enrichment fails
+      enableSpeech: true,       // false to disable speech strings
+      enableBraille: true,      // false to disable Braille notation
       menuOptions: {
         settings: {
-          assistiveMml: true,   // true to enable assistive MathML
+          enrich: false,         // true to enable semantic-enrichment
           collapsible: false,   // true to enable collapsible math
-          explorer: false      // true to enable the expression explorer
+          speech: true,         // true to enable speech generation
+          braille: true,        // true to enable Braille generation
+          assistiveMml: false,  // true to enable assistive MathML
         }
       }
     },

@@ -12,7 +12,7 @@ key: ass-short-exact-seqs
 Let
 
 $$
-0 \longrightarrow L \overset{f}{\longrightarrow} M \overset{g}{\longrightarrow} N \longrightarrow 0
+0 \longrightarrow L \xrightarrow{\; f\;} M \xrightarrow{\; g\;} N \longrightarrow 0
 $$
 
 be a short exact sequence of modules and homomorphisms over the commutative Noetherian ring $R$. Prove that
