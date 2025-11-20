@@ -15,7 +15,7 @@ Let $n \geq 1$. The complete $p$-partite graph $K(n,p)$ has vertex set $V = V_1 
 
 ### Solution
 
-1. Every closed walk of length $\ell$ in $K(n, p)$ is isomorphic to a closed walk in the complete graph $K_p$. For each step in this walk, we must first choose one of the partitions $V_i$ of the graph and then one of the $n$ vertices within $V_i$. The number of ways to walk arbitrarily between partitions is simply $p\ c(p, \ell)$---as defined in <a href="/2024/08/01/closedwalks-completegraph.html" target="_blank">Exercise 1.1</a>---and each time we choose a vertex, we multiply by $n$. Therefore, the number of closed walks in $K(n, p)$ is given by
+1. Every closed walk of length $\ell$ in $K(n, p)$ is isomorphic to a closed walk in the complete graph $K_p$. For each step in this walk, we must first choose one of the partitions $V_i$ of the graph and then one of the $n$ vertices within $V_i$. The number of ways to walk arbitrarily between partitions is simply $p\ c(p, \ell)$---as defined in <a href="/2024/08/01/closedwalks-completegraph.html" target="_blank" rel="noopener noreferrer">Exercise 1.1</a>---and each time we choose a vertex, we multiply by $n$. Therefore, the number of closed walks in $K(n, p)$ is given by
 
    $$n^\ell p\ c(p, \ell) = (n(p - 1))^\ell + (p - 1)(-n)^\ell.$$
 
@@ -23,4 +23,4 @@ Let $n \geq 1$. The complete $p$-partite graph $K(n,p)$ has vertex set $V = V_1 
 
 ## References
 
-1. <a id="Stanley2018"></a> Stanley. Richard P. (2018). *Algebraic Combinatorics: Walks, Trees, Tableaux, and More* (2nd ed.). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-77173-1" target="_blank">https://doi.org/10.1007/978-3-319-77173-1</a>
+1. <a id="Stanley2018"></a> Stanley. Richard P. (2018). *Algebraic Combinatorics: Walks, Trees, Tableaux, and More* (2nd ed.). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-77173-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/978-3-319-77173-1</a>

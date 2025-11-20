@@ -30,20 +30,20 @@ show_title: false
 
 ## Research
 
-- Nadji, M. L., Ahmia, M., Checa, D. F., & Ramírez, J. L. (2025). <a href="https://cs.uwaterloo.ca/journals/JIS/VOL28/Ramirez/ramirez19.pdf" target="_blank">Arndt Compositions with Restricted Parts, Palindromes, and Colored Variants</a>. *Journal of Integer Sequences*, 28, Article 25.3.6.
+- Nadji, M. L., Ahmia, M., Checa, D. F., & Ramírez, J. L. (2025). <a href="https://cs.uwaterloo.ca/journals/JIS/VOL28/Ramirez/ramirez19.pdf" target="_blank" rel="noopener noreferrer">Arndt Compositions with Restricted Parts, Palindromes, and Colored Variants</a>. *Journal of Integer Sequences*, 28, Article 25.3.6.
 
-- Checa, D. F., & Ramírez, J. L. (2024). <a href="https://math.colgate.edu/~integers/y35/y35.pdf" target="_blank">Arndt Compositions: A Generating Functions Approach</a>. *INTEGERS*, 24, #A35.
+- Checa, D. F., & Ramírez, J. L. (2024). <a href="https://math.colgate.edu/~integers/y35/y35.pdf" target="_blank" rel="noopener noreferrer">Arndt Compositions: A Generating Functions Approach</a>. *INTEGERS*, 24, #A35.
 
 ### Funding
 
-- Jun. 2023 to Dec. 2023 (F. Sc. UNAL) \| <a href="http://www.hermes.unal.edu.co/pages/Consultas/Proyecto.xhtml?idProyecto=57340" target="_blank"> *Applications Of Symbolic Computation And Combinatorics In The Quantitative Study Of Large Discrete Structures*</a>. Grant Number: 201 010 040 198.
+- Jun. 2023 to Dec. 2023 (F. Sc. UNAL) \| <a href="http://www.hermes.unal.edu.co/pages/Consultas/Proyecto.xhtml?idProyecto=57340" target="_blank" rel="noopener noreferrer"> *Applications Of Symbolic Computation And Combinatorics In The Quantitative Study Of Large Discrete Structures*</a>. Grant Number: 201 010 040 198.
 
 ## Events
 
-- Aug. 2025. **International Conference on Enumerative Combinatorics and Applications**, Virtual. <a href="https://youtu.be/Nx5zMaFGThc" target="_blank">*Speaker*</a>.
+- Aug. 2025. **International Conference on Enumerative Combinatorics and Applications**, Virtual. <a href="https://youtu.be/Nx5zMaFGThc" target="_blank" rel="noopener noreferrer">*Speaker*</a>.
 - Jun. 2025. **Días de Combinatoria**, Bogotá, Colombia.
 - Jul. 2024. **Colombian Encounter of Tropical and Non-archimedean Geometry**, Bogotá, Colombia.
-- Jun. 2024. **VIII ECCO - CIMPA Research School: Bridges between Algebra and Combinatorics**, Popayán, Colombia. <a href="documents/ecco2024.pdf" target="_blank">*Poster*</a>.
+- Jun. 2024. **VIII ECCO - CIMPA Research School: Bridges between Algebra and Combinatorics**, Popayán, Colombia. <a href="documents/ecco2024.pdf" target="_blank" rel="noopener noreferrer">*Poster*</a>.
 - Nov. 2023. **ALTENCOA 9**, Cali, Colombia. *Speaker*.
 - Sep. 2023. **ICMAM Latin America Satellite Conference on Algebra, Combinatorics and Number Theory**, Virtual.
 - Sep. 2023. **International Conference on Enumerative Combinatorics and Applications**, Virtual.
@@ -55,9 +55,9 @@ show_title: false
 
 - Aug. 2024 - Present. **Universidad de los Andes**, MSc. Mathematics.
 - Jan. 2018 - Dec. 2023. **Universidad Nacional de Colombia**, BSc. Mathematics.<br>
-  ***Thesis***: (2023) <a href="https://oeis.org/A000045/a000045_3.pdf" target="_blank">*Arndt Compositions: Connections with Fibonacci Numbers, Statistics, and Generalizations*</a>.
-  - Awarded as the <a href="documents/Res_010__2024_VA.pdf" target="_blank">Best Mathematics Bachelor's Thesis</a> in 2024.
-  - One of the <a href="https://www.acreditta.com/credential/1490ec10-df23-44e9-9b65-9c5ca85c21c5?utm_source=copy&resource_type=badge&resource=1490ec10-df23-44e9-9b65-9c5ca85c21c5" target="_blank">Best National State Tests</a> (Saber Pro) - 2022.
+  ***Thesis***: (2023) <a href="https://oeis.org/A000045/a000045_3.pdf" target="_blank" rel="noopener noreferrer">*Arndt Compositions: Connections with Fibonacci Numbers, Statistics, and Generalizations*</a>.
+  - Awarded as the <a href="documents/Res_010__2024_VA.pdf" target="_blank" rel="noopener noreferrer">Best Mathematics Bachelor's Thesis</a> in 2024.
+  - One of the <a href="https://www.acreditta.com/credential/1490ec10-df23-44e9-9b65-9c5ca85c21c5?utm_source=copy&resource_type=badge&resource=1490ec10-df23-44e9-9b65-9c5ca85c21c5" target="_blank" rel="noopener noreferrer">Best National State Tests</a> (Saber Pro) - 2022.
 
 ## Work Experience
 

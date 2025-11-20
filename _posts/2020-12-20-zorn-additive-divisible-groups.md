@@ -74,6 +74,6 @@ We conclude that $A+B=G$, and consequently, $A\oplus B=G$. <span style="float: r
 
 ## References
 
-1. <a id="Baer1936"></a> Baer, Reinhold. (1936). *The Subgroup of the Elements of Finite Order of an Abelian Group*. Annals of Mathematics, 37(4), 766--781. <a href="https://doi.org/10.2307/1968617" target="_blank">https://doi.org/10.2307/1968617</a>
+1. <a id="Baer1936"></a> Baer, Reinhold. (1936). *The Subgroup of the Elements of Finite Order of an Abelian Group*. Annals of Mathematics, 37(4), 766--781. <a href="https://doi.org/10.2307/1968617" target="_blank" rel="noopener noreferrer">https://doi.org/10.2307/1968617</a>
 
 2. <a id="Kaplansky1954"></a> Kaplansky, Irving (1954). *Infinite Abelian Groups*. The University of Michigan Press.

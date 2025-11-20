@@ -193,4 +193,4 @@ $$
 
 ## References
 
-1. <a id="Sharp2001"></a> Sharp, Rodney Y. (2001).  ***Steps in Commutative Algebra*** (2nd ed.). Cambridge University Press. <a href="http://dx.doi.org/10.1017/CBO9780511623684" target="_blank">http://dx.doi.org/10.1017/CBO9780511623684</a>
+1. <a id="Sharp2001"></a> Sharp, Rodney Y. (2001).  ***Steps in Commutative Algebra*** (2nd ed.). Cambridge University Press. <a href="http://dx.doi.org/10.1017/CBO9780511623684" target="_blank" rel="noopener noreferrer">http://dx.doi.org/10.1017/CBO9780511623684</a>

@@ -69,4 +69,4 @@ Thus, $\ker(\tilde{\varphi})$ is trivial, and $\tilde{\varphi}$ is an isomorphis
 
 ## References
 
-1. <a id="StacksProject"></a> The Stacks Project Authors. (n.d.). ***Tensor products*** (Section 10.12, Tag 00CV). The Stacks Project. Retrieved February 13, 2025, from <a href="https://stacks.math.columbia.edu/tag/00CV" target="_blank">https://stacks.math.columbia.edu/tag/00CV</a>
+1. <a id="StacksProject"></a> The Stacks Project Authors. (n.d.). ***Tensor products*** (Section 10.12, Tag 00CV). The Stacks Project. Retrieved February 13, 2025, from <a href="https://stacks.math.columbia.edu/tag/00CV" target="_blank" rel="noopener noreferrer">https://stacks.math.columbia.edu/tag/00CV</a>

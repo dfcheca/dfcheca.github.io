@@ -72,8 +72,8 @@ that is, $F(q)G(q)$ is symmetric.
 
 ## References
 
-1. <a id="Stanley2018"></a> Stanley, Richard P. (2018). *Algebraic Combinatorics: Walks, Trees, Tableaux, and More* (2nd ed.). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-77173-1" target="_blank">https://doi.org/10.1007/978-3-319-77173-1</a>
+1. <a id="Stanley2018"></a> Stanley, Richard P. (2018). *Algebraic Combinatorics: Walks, Trees, Tableaux, and More* (2nd ed.). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-77173-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/978-3-319-77173-1</a>
 
-2. <a id="Stanley1989"></a> Stanley, Richard P. (1989). *Log-Concave and Unimodal Sequences in Algebra, Combinatorics, and Geometry*. Annals of the New York Academy of Sciences, 576(1), 500-535. <a href="https://doi.org/10.1111/j.1749-6632.1989.tb16434.x" target="_blank">https://doi.org/10.1111/j.1749-6632.1989.tb16434.x</a>
+2. <a id="Stanley1989"></a> Stanley, Richard P. (1989). *Log-Concave and Unimodal Sequences in Algebra, Combinatorics, and Geometry*. Annals of the New York Academy of Sciences, 576(1), 500-535. <a href="https://doi.org/10.1111/j.1749-6632.1989.tb16434.x" target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/j.1749-6632.1989.tb16434.x</a>
 
-3. <a id="Scheuer2024"></a> Scheuer, Markus. (2024, September 8). *Proof review: The product of symmetric unimodal polynomials is again symmetric unimodal* [Question]. Mathematics Stack Exchange. <a href="https://math.stackexchange.com/questions/4968513/" target="_blank">https://math.stackexchange.com/questions/4968513/</a>
+3. <a id="Scheuer2024"></a> Scheuer, Markus. (2024, September 8). *Proof review: The product of symmetric unimodal polynomials is again symmetric unimodal* [Question]. Mathematics Stack Exchange. <a href="https://math.stackexchange.com/questions/4968513/" target="_blank" rel="noopener noreferrer">https://math.stackexchange.com/questions/4968513/</a>

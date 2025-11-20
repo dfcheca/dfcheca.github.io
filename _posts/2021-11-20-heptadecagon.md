@@ -6,7 +6,7 @@ key: heptadecagon
 
 ## Introduction
 
-We will prove that the regular heptadecagon, a polygon with 17 equal sides, is constructible with ruler and compass. It is enough to prove that the number $\cos\left(\frac{2\pi}{17}\right)$ is <a href="https://en.wikipedia.org/wiki/Constructible_number" target="_blank">constructible</a>. The procedure will follow the idea given by Gauss, who summed the roots of unity to express this quantity in terms of roots—Gaussian periods.
+We will prove that the regular heptadecagon, a polygon with 17 equal sides, is constructible with ruler and compass. It is enough to prove that the number $\cos\left(\frac{2\pi}{17}\right)$ is <a href="https://en.wikipedia.org/wiki/Constructible_number" target="_blank" rel="noopener noreferrer">constructible</a>. The procedure will follow the idea given by Gauss, who summed the roots of unity to express this quantity in terms of roots—Gaussian periods.
 
 ## Expression in Radicals of $\cos\left(\frac{2\pi}{17}\right)$
 
@@ -187,8 +187,8 @@ $$
 \end{align}
 $$
 
-This agrees with the <a href="https://en.wikipedia.org/wiki/Constructible_polygon#Gauss%E2%80%93Wantzel_theorem" target="_blank">Gauss–Wantzel theorem</a>.
+This agrees with the <a href="https://en.wikipedia.org/wiki/Constructible_polygon#Gauss%E2%80%93Wantzel_theorem" target="_blank" rel="noopener noreferrer">Gauss–Wantzel theorem</a>.
 
 ## References
 
-1. <a id="Stewart2015"></a> Stewart, I. (2015). *Abstract Algebra: A Comprehensive Introduction* (4th ed.). Chapman and Hall/CRC. <a href="https://doi.org/10.1201/b18187" target="_blank">https://doi.org/10.1201/b18187</a>
+1. <a id="Stewart2015"></a> Stewart, I. (2015). *Abstract Algebra: A Comprehensive Introduction* (4th ed.). Chapman and Hall/CRC. <a href="https://doi.org/10.1201/b18187" target="_blank" rel="noopener noreferrer">https://doi.org/10.1201/b18187</a>
