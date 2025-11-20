@@ -42,6 +42,10 @@
     <div class="article__subscribe">{%- include article/footer/subscribe.html -%}</div>
   {%- endif -%}
 
+  {%- if _sharing -%}
+    <section class="article__sharing d-print-none">{%- include sharing.html -%}</section>
+  {%- endif -%}
+
   {%- if _license != false -%}
     {%- assign _data_license = site.data.licenses-%}
     {%- if site.license -%}
