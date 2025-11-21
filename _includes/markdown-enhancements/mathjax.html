@@ -8,7 +8,7 @@
 <script>
   window.MathJax = {
     loader: {
-      load: ['[tex]/boldsymbol','[tex]/bboldx','[tex]/cancel','[tex]/extpfeil','[tex]/cases','[tex]/newcommand','[tex]/empheq','a11y/semantic-enrich', 'a11y/speech', 'a11y/explorer']
+      load: ['[tex]/ams','[tex]/boldsymbol','[tex]/bboldx','[tex]/cancel','[tex]/extpfeil','[tex]/cases','[tex]/newcommand','[tex]/empheq','a11y/semantic-enrich', 'a11y/speech', 'a11y/explorer']
     },
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -47,7 +47,8 @@
       }
     },
     output: {
-      font: 'mathjax-tex' // Options: mathjax-modern (default), mathjax-asana, mathjax-bonum, mathjax-dejavu, mathjax-pagella, mathjax-schola, mathjax-termes, mathjax-stix2, mathjax-fira, mathjax-euler, mathjax-tex
+      font: 'mathjax-tex', // Options: mathjax-modern (default), mathjax-asana, mathjax-bonum, mathjax-dejavu, mathjax-pagella, mathjax-schola, mathjax-termes, mathjax-stix2, mathjax-fira, mathjax-euler, mathjax-tex
+      displayOverflow: 'scroll', // Can be: scroll/scale/truncate/elide/linebreak/overflow
     }
   };
 </script>
