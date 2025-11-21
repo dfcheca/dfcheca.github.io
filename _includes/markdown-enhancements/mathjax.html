@@ -8,7 +8,7 @@
 <script>
   window.MathJax = {
     loader: {
-      load: ['[tex]/boldsymbol','[tex]/bboldx']
+      load: ['[tex]/boldsymbol','[tex]/bboldx','[tex]/cancel','[tex]/extpfeil','[tex]/cases','[tex]/newcommand','[tex]/empheq','a11y/semantic-enrich', 'a11y/speech', 'a11y/explorer']
     },
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -16,7 +16,7 @@
       {% if _mathjax_autoNumber == true %}
       tags: "ams", //Not "all", as configured before
       {% endif %}
-      packages: {'[+]': ['ams', 'boldsymbol', 'bboldx', 'cases', 'newcommand', 'extpfeil', 'a11y/semantic-enrich', 'a11y/speech', 'a11y/braille']},
+      packages: {'[+]': ['ams', 'boldsymbol', 'bboldx', 'cancel', 'cases', 'empheq', 'newcommand', 'extpfeil']},
       bboldx: {
         bfbb: false,
         light: false
@@ -27,6 +27,7 @@
       enrichError: (doc, math, err) => doc.enrichError(doc, math, err),  // function to call if enrichment fails
       enableSpeech: true,       // false to disable speech strings
       enableBraille: true,      // false to disable Braille notation
+      enableMenu: true,
       menuOptions: {
         settings: {
           enrich: false,         // true to enable semantic-enrichment
@@ -34,6 +35,13 @@
           speech: true,         // true to enable speech generation
           braille: true,        // true to enable Braille generation
           assistiveMml: false,  // true to enable assistive MathML
+        },
+        annotationTypes: {
+          TeX: ['TeX', 'LaTeX', 'application/x-tex'],
+          StarMath: ['StarMath 5.0'],
+          Maple: ['Maple'],
+          ContentMathML: ['MathML-Content', 'application/mathml-content+xml'],
+          OpenMath: ['OpenMath']
         }
       }
     },
