@@ -90,7 +90,7 @@ $$
 
 which means that $ p_i \in Q $ for each $ i $. Therefore, $ p(X) \in Q^e $. Thus, $ \ker(\varphi) = Q^e $.  
 
-By the First Isomorphism Theorem---\[[1](#Sharp2001), Th. 2.13\], $(R/Q)[X] = \operatorname{Im} \varphi \cong R[X] / Q^e$. Recall that in $R/Q$, zero divisors are nilpotent—\[[1](#Sharp2001), Lem. 4.3\], so by the result proved above, taking $S = R/Q$, all zero divisors in $(R/Q)[X]$ are nilpotent. The above isomorphism preserves zero divisors, so $R[X] / Q^e$ satisfies the same property, and thus, $Q^e$ is primary.<span style="float: right;">$\blacksquare$</span>
+By the First Isomorphism Theorem---\[[1](#Sharp2001), Th. 2.13\], $(R/Q)[X] = \operatorname{Im} \varphi \cong R[X] / Q^e$. Recall that in $R/Q$, zero divisors are nilpotent—\[[1](#Sharp2001), Lem. 4.3\], so by the result proved above, taking $S = R/Q$, all zero divisors in $(R/Q)[X]$ are nilpotent. The above isomorphism preserves zero divisors, so $R[X] / Q^e$ satisfies the same property, and thus, $Q^e$ is primary.{% include qed.html %}
 
 ## 2nd item
 
@@ -146,7 +146,7 @@ $$
 \end{align*}
 $$
 
-By what was previously proven, $ \sqrt{Q_i^e} = \sqrt{Q_i}^e = P_i^e $ for all $ i = 1, \dots, n $. <span style="float: right;">$\blacksquare$</span>
+By what was previously proven, $ \sqrt{Q_i^e} = \sqrt{Q_i}^e = P_i^e $ for all $ i = 1, \dots, n $. {% include qed.html %}
 
 ## 3rd item
 

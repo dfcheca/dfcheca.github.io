@@ -57,7 +57,7 @@ Now let us prove the inclusion on the right. Let $\mathfrak{p} \in \operatorname
 
     It is clear that $\mathfrak{p} = \operatorname{Ann}(m) \subseteq \operatorname{Ann}(am) = \operatorname{Ann}(m_0)$; the reverse inclusion also holds: take $s \in \operatorname{Ann}(m_0)$, then $0 = s m_0 = (s a) m$, that is, $s a \in \mathfrak{p}$. Moreover, $a \notin \mathfrak{p}$, for otherwise $m_0 = a m = 0$. Therefore, $s \in \mathfrak{p}$ by primality of $\mathfrak{p}$. That is, $\mathfrak{p} = \operatorname{Ann}(m_0) = \operatorname{Ann}(\ell) \in \operatorname{Ass}(L)$.
 
-From both cases, it follows that $\mathfrak{p} \in \operatorname{Ass}(L) \cup \operatorname{Ass}(N)$. <span style="float: right;">$\blacksquare$</span>
+From both cases, it follows that $\mathfrak{p} \in \operatorname{Ass}(L) \cup \operatorname{Ass}(N)$. {% include qed.html %}
 
 ## References
 

@@ -60,7 +60,7 @@ Similarly, if $ s = \lfloor n/2 \rfloor $, we have that $G(q)=\sum_{j=0}^s\sum_{
 
 $$F(q)G(q)=\sum_{i=0}^r\sum_{j=0}^s(a_i-a_{i-1})(b_j-b_{j-1})(q^i+\cdots+q^{m-i})(q^j+\cdots+q^{n-j}).$$
 
-Now, each polynomial $(q^i + \cdots + q^{m-i})(q^j + \cdots + q^{n-j}) = q^{i+j}\left(1+q+\cdots+q^{m-2i}\right)\left(1+q+\cdots+q^{n-2j}\right)$ is symmetric with center $\left\lfloor(m+n)/2\right\rfloor$ and unimodal by the result above when taking $u= m-2i$ and $v=n-2j$. By hypothesis, $(a_i - a_{i-1})(b_j - b_{j-1}) \geq 0$ for each summand, so $F(q)G(q)$ is unimodal, and symmetric with center $\left\lfloor(m+n)/2\right\rfloor$. <span style="float: right;">$\blacksquare$</span>
+Now, each polynomial $(q^i + \cdots + q^{m-i})(q^j + \cdots + q^{n-j}) = q^{i+j}\left(1+q+\cdots+q^{m-2i}\right)\left(1+q+\cdots+q^{n-2j}\right)$ is symmetric with center $\left\lfloor(m+n)/2\right\rfloor$ and unimodal by the result above when taking $u= m-2i$ and $v=n-2j$. By hypothesis, $(a_i - a_{i-1})(b_j - b_{j-1}) \geq 0$ for each summand, so $F(q)G(q)$ is unimodal, and symmetric with center $\left\lfloor(m+n)/2\right\rfloor$. {% include qed.html %}
 
 ### Note
 

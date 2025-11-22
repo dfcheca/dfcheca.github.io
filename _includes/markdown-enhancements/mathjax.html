@@ -8,7 +8,7 @@
 <script>
   window.MathJax = {
     loader: {
-      load: ['[tex]/ams','[tex]/boldsymbol','[tex]/bboldx','[tex]/cancel','[tex]/extpfeil','[tex]/cases','[tex]/newcommand','[tex]/empheq','a11y/semantic-enrich', 'a11y/speech', 'a11y/explorer']
+      load: ['[tex]/boldsymbol','[tex]/bboldx','[tex]/cancel','[tex]/extpfeil','[tex]/cases','[tex]/empheq','a11y/semantic-enrich', 'a11y/speech', 'a11y/explorer']
     },
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -16,7 +16,7 @@
       {% if _mathjax_autoNumber == true %}
       tags: "ams", //Not "all", as configured before
       {% endif %}
-      packages: {'[+]': ['ams', 'boldsymbol', 'bboldx', 'cancel', 'cases', 'empheq', 'newcommand', 'extpfeil']},
+      packages: {'[+]': ['boldsymbol','bboldx','cancel','cases','empheq','extpfeil']},
       bboldx: {
         bfbb: false,
         light: false

@@ -1,3 +1,11 @@
 /* start custom scss snippet */
+.email-link {
+  font-family: map-get($base, font-family-code);
+  font-weight: 500;
+  font-size: 15px;
+}
 
+.mono-font {
+  font-family: map-get($base, font-family-code);
+}
 /* end custom scss snippet */

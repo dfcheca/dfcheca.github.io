@@ -14,13 +14,13 @@ show_title: false
 <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px;">
 
   <div class="profile-image">
-    <img src="assets/images/profile/profile.jpg" alt="Daniel" width="180" height="180" class="circle shadow">
+    <img src="assets/images/profile/profile.jpg" alt="Daniel" title="Hi, I'm Daniel" width="180" height="180" class="circle shadow">
   </div>
   <div class="profile-description">
     <p>
       <b style="font-size: 22px; line-height: 0.5;">Mathematician </b> <br>
       <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400">MSc. Student <!-- &nbsp; | &nbsp; Graduate Assistant &nbsp; | &nbsp; Uniandes --> </span> <br>
-      <a href="mailto:dcheca@unal.edu.co" style="font-family: 'Fira Code'; font-weight:500; font-size: 15px">dcheca [at] unal [dot] edu [dot] co</a>
+      <a href="mailto:dcheca@unal.edu.co" class="email-link">dcheca [at] unal [dot] edu [dot] co</a>
       <div style="height: 5px;"></div>
 
       Mathematician, sometimes photographer. My areas of interest are enumerative and algebraic combinatorics, as well as topics in discrete mathematics.
@@ -83,10 +83,6 @@ show_title: false
   text-align: justify;
   margin-left: 50px;
   align-items: center;
-}
-
-.email-link {
-  font-family: map-get($base, font-family-code);
 }
 
 /* Mobile-specific adjustments */

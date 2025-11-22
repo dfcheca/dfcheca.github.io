@@ -61,7 +61,7 @@ $$
 \end{align*}
 $$
 
-By comparing the coefficients, we get the desired equality. <span style="float: right;">$\blacksquare$</span>
+By comparing the coefficients, we get the desired equality. {% include qed.html %}
 
 ## References
 

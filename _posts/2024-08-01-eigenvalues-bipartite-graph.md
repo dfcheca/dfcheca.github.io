@@ -17,7 +17,7 @@ An equivalent formulation can be given in terms of the characteristic polynomial
 
 For every bipartite graph, it holds that there are no cycles of odd length. Therefore, every closed walk has $\ell = 2k$ steps. Let $\lambda_1, \ldots, \lambda_r$ be the nonzero eigenvalues of $G$, and let $p(\lambda_1, \ldots, \lambda_r) = \sum_{i=1}^r \lambda_i^\ell = \sum_{i=1}^r (\lambda_i^2)^k$ be the number of walks of length $\ell$ in $G$.
 
-It is trivial that $p(\lambda_1, \ldots, \lambda_r) = p(-\lambda_1, \ldots, -\lambda_r)$, but what this tells us, according to Lemma 1.7, is that if $\lambda_i$ is part of this list of eigenvalues, then $\lambda_i = -\lambda_j$ for some other $\lambda_j$. Thus, if $\lambda_i$ is an eigenvalue, then $-\lambda_i$ must also be an eigenvalue. <span style="float: right;">$\blacksquare$</span>
+It is trivial that $p(\lambda_1, \ldots, \lambda_r) = p(-\lambda_1, \ldots, -\lambda_r)$, but what this tells us, according to Lemma 1.7, is that if $\lambda_i$ is part of this list of eigenvalues, then $\lambda_i = -\lambda_j$ for some other $\lambda_j$. Thus, if $\lambda_i$ is an eigenvalue, then $-\lambda_i$ must also be an eigenvalue. {% include qed.html %}
 
 ### Alternative Proof
 
@@ -74,7 +74,7 @@ $$
 
 That is, $ f(x) $ is an even function if $ p $ is even, and it is an odd function if $ p $ is odd.
 
-It is known that a polynomial $ f(x) $ is even if and only if it is of the form $ g(x^2) $ for some polynomial $ g(x) $, and it is odd if and only if it is of the form $ x g(x^2) $. This is equivalent to what we want to prove, since in both cases, the nonzero roots of $ f $ are precisely of the form $ x = \pm \lambda $. <span style="float: right;">$\blacksquare$</span>
+It is known that a polynomial $ f(x) $ is even if and only if it is of the form $ g(x^2) $ for some polynomial $ g(x) $, and it is odd if and only if it is of the form $ x g(x^2) $. This is equivalent to what we want to prove, since in both cases, the nonzero roots of $ f $ are precisely of the form $ x = \pm \lambda $. {% include qed.html %}
 
 ## References
 

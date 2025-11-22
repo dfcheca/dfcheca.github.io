@@ -168,7 +168,7 @@ $$
 \end{align*}
 $$
 
-which means that $ (\lambda - a)(\lambda - b) $ is also an eigenvalue of $ \boldsymbol{A}^2 $. <span style="float: right;">$\blacksquare$</span>
+which means that $ (\lambda - a)(\lambda - b) $ is also an eigenvalue of $ \boldsymbol{A}^2 $. {% include qed.html %}
 
 ## References
 

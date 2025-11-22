@@ -78,7 +78,7 @@ $$
 \bigcap_{j=1}^{k} Q_j = \bigcap_{j=1}^{k} Q_j',
 $$  
 
-as claimed. <span style="float: right;">$\blacksquare$</span>
+as claimed. {% include qed.html %}
 
 ## References
 

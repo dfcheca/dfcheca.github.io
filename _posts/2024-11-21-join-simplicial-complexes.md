@@ -83,7 +83,7 @@ Let $ d = \dim\Gamma + 1 $ and $ e = \dim\Delta + 1 $.
     \end{align*}
     $$
     
-    confirming that $\theta_1, \ldots, \theta_d, \eta_1, \ldots, \eta_e$ is a regular sequence in $K[\Gamma * \Delta]_1$, i.e., $\dim K[\Gamma * \Delta] = \operatorname{depth} K[\Gamma * \Delta] = d + e$. Thus, $\Gamma*\Delta$ is Cohen–Macaulay as well. <span style="float: right;">$\blacksquare$</span>
+    confirming that $\theta_1, \ldots, \theta_d, \eta_1, \ldots, \eta_e$ is a regular sequence in $K[\Gamma * \Delta]_1$, i.e., $\dim K[\Gamma * \Delta] = \operatorname{depth} K[\Gamma * \Delta] = d + e$. Thus, $\Gamma*\Delta$ is Cohen–Macaulay as well. {% include qed.html %}
 
 3. Let $m = f_{d-1}(\Gamma)$ and $n = f_{e-1}(\Delta)$; and let $F_1, \ldots, F_m$ be a shelling order for $\Gamma$, and $G_1, \ldots, G_n$ a shelling order for $\Delta$. As we proved in item (a), $f_{d+e-1}(\Gamma*\Delta)=mn$.
     
@@ -93,7 +93,7 @@ Let $ d = \dim\Gamma + 1 $ and $ e = \dim\Delta + 1 $.
     
     Now, for each $i = 1, \ldots, mn$, if $H_i = F_{\alpha_i} \cup G_{\beta_i}$, then the set $\langle H_i \rangle \setminus \langle H_1, \ldots, H_{i-1} \rangle$ must contain the face $r(F_{\alpha_i}) \cup r(G_{\beta_i})$, and this is indeed the restriction of $H_i$. Otherwise, either $r(F_{\alpha_i})$ or $r(G_{\beta_i})$ would not be unique.
     
-    Thus, $\Gamma * \Delta$ has the shelling order $H_1, \ldots, H_{mn}$. <span style="float: right;">$\blacksquare$</span>
+    Thus, $\Gamma * \Delta$ has the shelling order $H_1, \ldots, H_{mn}$. {% include qed.html %}
 
 ## References
 

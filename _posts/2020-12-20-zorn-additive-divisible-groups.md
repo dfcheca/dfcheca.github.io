@@ -70,7 +70,7 @@ $$z=\alpha mz+\beta pz =\alpha(a'-b')+\beta(-b)=\alpha a' +\left[\alpha(-b')+\be
 
 We obtain that $\alpha a'\in A$ and $\left[\alpha(-b')+\beta(-b)\right]\in B$, contradicting that $z\notin A+B$.
 
-We conclude that $A+B=G$, and consequently, $A\oplus B=G$. <span style="float: right;">$\blacksquare$</span>
+We conclude that $A+B=G$, and consequently, $A\oplus B=G$. {% include qed.html %}
 
 ## References
 

@@ -36,7 +36,7 @@ such that $N_{i-1}/N_i$ is abelian, as shown above, it is possible to refine thi
 
 $$\lbrace e\rbrace =G_n\lhd G_{n-1}\lhd \cdots \lhd G_1 \lhd G_0 =G$$ 
 
-such that each $G_{i-1}/G_i$ is cyclic. <span style="float: right;">$\blacksquare$</span>
+such that each $G_{i-1}/G_i$ is cyclic. {% include qed.html %}
 
 ## References
 

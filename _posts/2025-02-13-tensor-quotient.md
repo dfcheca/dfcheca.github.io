@@ -65,7 +65,7 @@ $$
 \end{align*}
 $$
 
-Thus, $\ker(\tilde{\varphi})$ is trivial, and $\tilde{\varphi}$ is an isomorphism. <span style="float: right;">$\blacksquare$</span>
+Thus, $\ker(\tilde{\varphi})$ is trivial, and $\tilde{\varphi}$ is an isomorphism. {% include qed.html %}
 
 ## References
 

@@ -81,7 +81,7 @@ Thus, by comparing coefficients, we have that
 
 $$c(m, n)=\frac{(m+n-1)!}{(m-1)!(n-1)!}$$
 
-for all $m,n \geq 1$. <span style="float: right;">$\blacksquare$</span>
+for all $m,n \geq 1$. {% include qed.html %}
 
 ## References
 

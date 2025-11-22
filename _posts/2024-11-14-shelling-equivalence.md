@@ -74,7 +74,7 @@ Let's prove both implications:
 
     To see this, let $G'$ be any face in $\langle F_i\rangle \setminus \langle F_1, \ldots, F_{i-1}\rangle$. Then $G' \subseteq F_i$. If there existed $a_j \notin G'$, we would have $G' \subseteq H_j = F_i \setminus \lbrace a_j \rbrace$, and therefore $G'$ would belong to the intersection $\langle F_1, \ldots, F_{i-1}\rangle \cap \langle F_i\rangle$, a contradiction.
 
-    Hence $\lbrace a_1, \ldots, a_k\rbrace \subseteq G'$, proving that $G$ is contained in every new face and thus is the unique minimal face of $\langle F_i\rangle \setminus \langle F_1, \ldots, F_{i-1}\rangle$. Therefore, the ordering $F_1, \ldots, F_t$ is a shelling of $\Delta$. <span style="float: right;">$\blacksquare$</span>
+    Hence $\lbrace a_1, \ldots, a_k\rbrace \subseteq G'$, proving that $G$ is contained in every new face and thus is the unique minimal face of $\langle F_i\rangle \setminus \langle F_1, \ldots, F_{i-1}\rangle$. Therefore, the ordering $F_1, \ldots, F_t$ is a shelling of $\Delta$. {% include qed.html %}
 
 
 ## References
