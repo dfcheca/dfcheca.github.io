@@ -44,6 +44,12 @@
       .googlescholar-button {
         @include clickable($text-color-1, $google-scholar-color);
       }
+      .researchgate-button {
+        @include clickable($text-color-1, $researchgate-color);
+      }
+      .scopus-button {
+        @include clickable($text-color-1, $scopus-color);
+      }
       .cvlac-button {
         @include clickable($text-color-1, $cvlac-color);
       }

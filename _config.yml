@@ -17,7 +17,7 @@
 ## => Site Settings
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: cobalt # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+highlight_theme: cobalt
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Daniel F. Checa
@@ -39,20 +39,13 @@ author:
   avatar    : # path or url of avatar image (square)
   bio       : Mathematician, sometimes photographer.
   email     : dcheca@unal.edu.co #d.checa@uniandes.edu.co
-  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
-  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
-  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
-  medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
-  zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
-  douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : dfcheca # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : dfcheca # "user_name" the last part of your profile url, e.g. https://github.com/user_name
-  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
-  orcid     : 0000-0002-3403-4298 # replace with your ORCID
-  googlescholar: yxUxL8sAAAAJ
-  cvlac: 0002159842
+  linkedin  : dfcheca # linkedin username
+  github    : dfcheca # github username
+  orcid     : 0000-0002-3403-4298 # ORCID number
+  googlescholar: yxUxL8sAAAAJ # Google Scholar ID
+  researchgate: Daniel_Checa # ResearchGate ID
+  scopus: 58750318100 # Scopus ID
+  cvlac: 0002159842 # CvLAC ID
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################

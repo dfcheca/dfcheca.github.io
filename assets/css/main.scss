@@ -4,12 +4,12 @@
 
 // To call the main fonts
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@300;400;500;600&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&family=Fira+Code:wght@300;400;500;600&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@300;400;500;600&family=Google+Sans+Code:wght@300;400;500;600&display=swap');
 
 @import
+
+    "common/variables",
 
     "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
     // "skins/chocolate",
@@ -20,14 +20,7 @@
     // "skins/orange",
 
     "skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}",
-    // "skins/highlight/tomorrow",
-    // "skins/highlight/tomorrow-night",
-    // "skins/highlight/tomorrow-night-eighties",
-    // "skins/highlight/tomorrow-night-blue",
-    // "skins/highlight/tomorrow-night-bright",
 
-
-    "common/variables",
     "common/function",
     "common/classes",
     "common/reset",

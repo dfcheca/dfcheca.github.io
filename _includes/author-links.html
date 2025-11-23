@@ -132,6 +132,22 @@
       </li>
     {%- endif -%}
 
+    {%- if _author.researchgate -%}
+      <li title="{{ _locale_string_follow | replace: '[NAME]', 'ResearchGate' }}">
+        <a class="button button--circle researchgate-button" itemprop="sameAs" href="https://www.researchgate.net/profile/{{ _author.researchgate }}" target="_blank" rel="noopener noreferrer">
+          <div class="icon">{%- include svg/icon/social/researchgate.svg -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
+
+    {%- if _author.scopus -%}
+      <li title="{{ _locale_string_follow | replace: '[NAME]', 'Scopus' }}">
+        <a class="button button--circle scopus-button" itemprop="sameAs" href="https://www.scopus.com/authid/detail.uri?authorId={{ _author.scopus }}" target="_blank" rel="noopener noreferrer">
+          <div class="icon">{%- include svg/icon/social/scopus.svg -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
+
     {%- if _author.cvlac -%}
       <li title="{{ _locale_string_follow | replace: '[NAME]', 'CvLAC' }}">
         <a class="button button--circle cvlac-button" itemprop="sameAs" href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh={{ _author.cvlac }}" target="_blank" rel="noopener noreferrer">
