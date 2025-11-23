@@ -134,6 +134,8 @@ a {
 
 pre, code {
   font-family: map-get($base, font-family-code);
+  font-variant-ligatures: none; /* Deactivates standard ligatures */
+  font-feature-settings: "liga" 0, "calt" 0; /* Deactivates discretionary ligatures */
 }
 
 code {

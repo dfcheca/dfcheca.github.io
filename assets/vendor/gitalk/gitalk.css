@@ -180,6 +180,8 @@
 .markdown-body pre {
   font-family: map-get($base, font-family-code);
   font-size: 1em;
+  font-variant-ligatures: none; /* Deactivates standard ligatures */
+  font-feature-settings: "liga" 0, "calt" 0; /* Deactivates discretionary ligatures */
 }
 
 .markdown-body hr {
