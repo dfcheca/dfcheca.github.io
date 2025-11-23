@@ -32,6 +32,7 @@ GEM
     colorator (1.1.0)
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
+    csv (3.3.5)
     drb (2.2.1)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
@@ -161,6 +162,7 @@ GEM
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
     uri (1.0.2)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -183,10 +185,12 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  csv
   jekyll-paginate-v2 (~> 3.0)
   jekyll-text-theme!
   rake (~> 10.0)
   tzinfo-data
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.5.22
