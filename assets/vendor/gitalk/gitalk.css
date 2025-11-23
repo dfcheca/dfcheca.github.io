@@ -633,6 +633,7 @@
 .markdown-body .highlight pre {
   margin-bottom: 0;
   word-break: normal;
+  color: #000 !important;
 }
 
 .markdown-body .highlight pre,
