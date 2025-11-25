@@ -18,7 +18,7 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: cobalt
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://dfcheca.com # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Daniel F. Checa
 description: > # this means to ignore newlines until "Language & timezone"
@@ -36,7 +36,7 @@ author:
   type      : Person # "person" (default), "organization"
   name      : Daniel F. Checa
   url       : dfcheca.com
-  avatar    : # path or url of avatar image (square)
+  avatar    : /assets/images/profile/profile.jpg # path or url of avatar image (square)
   bio       : Mathematician, sometimes photographer.
   email     : dcheca@unal.edu.co #d.checa@uniandes.edu.co
   linkedin  : dfcheca # linkedin username

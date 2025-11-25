@@ -19,6 +19,10 @@ header:
   - titles:
       en      : &EN       Archive
     url: /archive.html
+
+  - titles:
+      en      : &EN       CV
+    url: /assets/cv/cv.pdf
   
   - titles:
       en      : &EN       Listen 
