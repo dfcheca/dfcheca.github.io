@@ -7,12 +7,8 @@
     "common/variables",
 
     "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
-    // "skins/chocolate",
     // "skins/dark",
     // "skins/default",
-    // "skins/forest",
-    // "skins/ocean",
-    // "skins/orange",
 
     "skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}",
 

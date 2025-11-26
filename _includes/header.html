@@ -8,7 +8,9 @@
     <div class="main">
       <div class="header__title">
         <div class="header__brand">
-          <!--{% include svg/logo.svg %} -->
+          {% comment %}
+            {% include svg/logo.svg %} <!-- Uncomment to add logo image -->
+          {% endcomment %}
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- if site.title -%}

@@ -1,0 +1,84 @@
+///
+// Skin: Dark
+// Author: Tian Qi
+// Email: kitian616@outlook.com
+///
+
+// main colors
+$main-color-1:     rgba(#4cb6ef,1);
+$text-color-1:     rgba(#fff, 1);
+
+$main-color-2:     #fca24d;
+$text-color-2:     rgba(#fff, 1);
+
+$main-color-3:     #002240;
+$text-color-3:     rgba(#fff, 1);
+
+$main-color-4:     #ffffff;
+$text-color-4:     rgba(#fff, 1);
+
+$main-color-5:     #A7DDFA;
+
+$main-color-theme-light: rgba(#000, .8);
+$main-color-theme-dark:  rgba(#fff, .8);
+
+// page background
+$background-color: rgba(#002240, .95);
+
+// text colors
+$text-color-theme-light-d: #000;
+$text-color-theme-light:   #222;
+$text-color-theme-light-l: #888;
+
+$text-color-theme-dark-d:  rgba(#fff, 1);
+$text-color-theme-dark:    rgba(#fff, .85);
+$text-color-theme-dark-l:  rgba(#fff, .7);
+
+$text-color-d:     $text-color-theme-dark-d;
+$text-color:       $text-color-theme-dark;
+$text-color-l:     $text-color-theme-dark-l;
+
+$text-background-color: rgba(#fff, .05);
+
+// header and footer colors
+$header-text-color: $text-color-3;
+$header-background: $main-color-3;
+
+$footer-text-color: $text-color-3;
+$footer-background: $main-color-3;
+
+// border and shadow colors
+$border-color:     mix(#fff, $background-color, 20%);
+$border-color-l:   mix(#fff, $background-color, 10%);
+$decorate-color:   rgba(#fff, .1);
+$mask-color:       rgba(#000, .9);
+$select-color:     rgba($main-color-1, .5);
+
+// function colors
+$green:           #5baa34;
+$blue:            #1c7cd4;
+$yellow:          #c9771f;
+$red:             #da3d45;
+$text-color-function: rgba(#fff, .8);
+
+// logo colors
+$mail-color:       #EA4335;
+$facebook-color:   #4267b2;
+$twitter-color:    #1da1f2;
+$weibo-color:      #e6162d;
+$google-plus-color:#ea4335;
+$telegram-color:   #32afed;
+$medium-color:     #000;
+$zhihu-color:      #0084ff;
+$douban-color:     #42bd56;
+$linkedin-color:   #1074af;
+$github-color:     #000;
+$npm-color:        #fff;
+$orcid-color:      #a7cf36;
+$google-scholar-color: #4884f4;
+$researchgate-color: #00ccbb;
+$scopus-color: #f36d21;
+$cvlac-color: #4884f4;
+
+// highlight colors
+@import "skins/highlight/cobalt";
