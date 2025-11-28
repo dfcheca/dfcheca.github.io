@@ -14,7 +14,7 @@ show_title: false
 <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px;">
 
   <div class="profile-image">
-    <img src="assets/images/profile/profile.jpg" alt="Daniel" title="Hi, I'm Daniel" width="180" height="180" class="circle shadow">
+    <img src="assets/images/profile/profile.png" alt="Daniel" title="Hi, I'm Daniel" width="180" height="180" class="circle shadow">
   </div>
   <div class="profile-description">
     <p>
