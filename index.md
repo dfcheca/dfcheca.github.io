@@ -11,11 +11,16 @@ titles:
 show_title: false
 ---
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px;">
-
-  <div class="profile-image">
-    <img src="assets/images/profile/profile.png" alt="Daniel" title="Hi, I'm Daniel" width="180" height="180" class="circle shadow">
-  </div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; ; margin-top: 40px">
+  <div class="profile-person" title="Hi, I'm Daniel">
+    <div class="profile-avatar-container">
+      <div class="profile-container-inner">
+        <img class="profile-circle"/>
+        <img class="profile-img profile-img-1" src="/assets/images/profile/profile.png" />
+      </div>
+      <div class="profile-circle-shadow"></div>
+    </div>
+  </div>  
   <div class="profile-description">
     <p>
       <b style="font-size: 22px; line-height: 0.5;">Mathematician </b> <br>
@@ -65,36 +70,3 @@ show_title: false
 - Aug. 2024 - Jun. 2025. **Universidad de los Andes**, Graduate Assistant - Mathematics Department.
 - Jul. 2024 - Aug. 2025. **Moaddel Law Firm**, Translator and Interpreter.
 - Mar. 2021 - Jun. 2023. **Universidad Nacional de Colombia - Sede Bogotá**, Tutor - *Grupos de Estudio Autónomo* (GEA).
-
-<style>
-/* General styles */
-.profile-image {
-  flex: 0 0 auto;
-  text-align: center;
-  position: relative;
-  width: 180px;
-  height: 180px;
-  margin: 0 auto; /* Center alignment for smaller screens */
-}
-
-.profile-description {
-  flex: 1;
-  min-width: 250px;
-  text-align: justify;
-  margin-left: 50px;
-  align-items: center;
-}
-
-/* Mobile-specific adjustments */
-@media (max-width: 768px) {
-  .profile-image {
-    margin: 0 auto; /* Center the image */
-    text-align: center;
-  }
-
-  .profile-description {
-    margin-left: 0; /* Remove left margin for proper alignment */
-    text-align: center; /* Optional: Center-align text */
-  }
-}
-</style>

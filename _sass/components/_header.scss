@@ -83,6 +83,10 @@
     @include media-breakpoint-down(md) {
       font-size: map-get($base, font-size-h3-small);
     }
+    user-select: none;       /* Modern standard */
+    -webkit-user-select: none; /* Chrome, Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
   }
 }
 
