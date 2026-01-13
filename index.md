@@ -58,7 +58,7 @@ show_title: false
 
 ## Education
 
-- Aug. 2024 - Present. **Universidad de los Andes**, MSc. Mathematics.
+- ~~Aug. 2024 (On Hold). **Universidad de los Andes**, MSc. Mathematics.~~
 - Jan. 2018 - Dec. 2023. **Universidad Nacional de Colombia**, BSc. Mathematics.<br>
   ***Thesis***: (2023) <a href="https://oeis.org/A000045/a000045_3.pdf" target="_blank" rel="noopener noreferrer">*Arndt Compositions: Connections with Fibonacci Numbers, Statistics, and Generalizations*</a>.
   - Awarded as the <a href="documents/Res_010__2024_VA.pdf" target="_blank" rel="noopener noreferrer">Best Mathematics Bachelor's Thesis</a> in 2024.
@@ -66,7 +66,7 @@ show_title: false
 
 ## Work Experience
 
-- Aug. 2025 - Dec. 2025. **Universidad Nacional de Colombia - Sede Orinoquía**, Teaching Assistant.
+- Aug. 2025 - Present. **Universidad Nacional de Colombia - Sede Orinoquía**, Teaching Assistant.
 - Aug. 2024 - Jun. 2025. **Universidad de los Andes**, Graduate Assistant - Mathematics Department.
 - Jul. 2024 - Aug. 2025. **Moaddel Law Firm**, Translator and Interpreter.
 - Mar. 2021 - Jun. 2023. **Universidad Nacional de Colombia - Sede Bogotá**, Tutor - *Grupos de Estudio Autónomo* (GEA).

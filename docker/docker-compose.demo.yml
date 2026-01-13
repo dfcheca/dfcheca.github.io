@@ -1,15 +1,20 @@
-version: "3.5"
-
 services:
-  jekyll-text-theme_dev:
-    image: docker_jekyll-text-theme_dev
+  jekyll-text-theme_build:
+    image: docker-jekyll-text-theme_dev
     environment:
-      - JEKYLL_ENV
-    ports:
-      - 4000:4000
-    container_name: jekyll-TeXt-theme_demo
+      - JEKYLL_ENV=production
     volumes:
       - ..:/usr/src/app
-    stdin_open: true
-    tty: true
-    command: bundle exec jekyll serve -H 0.0.0.0 -t --config ./docs/_config.yml
+    command: bundle exec jekyll build
+
+  jekyll-text-theme_web:
+    image: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ../_site:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - jekyll-text-theme_build
+    restart: unless-stopped
