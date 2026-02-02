@@ -34,7 +34,7 @@
               <li class="navigation__item navigation__item--active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
             {%- else -%}
               <li class="navigation__item">
-                <a href="{{ _nav_url }}" {% if _nav_url contains "youtu" or _nav_url contains "pdf" %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                <a href="{{ _nav_url }}" {% if _nav_url contains "youtu" or _nav_url contains "pdf" or _nav_url contains "preply.com" %}target="_blank" rel="noopener noreferrer"{% endif %}>
                   {%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}
                 </a>
               </li>

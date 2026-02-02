@@ -23,7 +23,11 @@ header:
   - titles:
       en      : &EN       CV
     url: /assets/cv/cv.pdf
+
+  - titles:
+      en      : &EN       Tutoring
+    url: https://preply.com/en/tutor/7443595
   
   - titles:
-      en      : &EN       Listen 
+      en      : &EN       Listen
     url: https://youtu.be/Eo7Dw0wbHgA
