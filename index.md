@@ -24,7 +24,7 @@ show_title: false
   <div class="profile-description">
     <p>
       <b style="font-size: 22px; line-height: 0.5;">Mathematician </b> <br>
-      <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400">MSc. Student <!-- &nbsp; | &nbsp; Graduate Assistant &nbsp; | &nbsp; Uniandes --> </span> <br>
+      <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400">Teaching Assistant <!-- &nbsp; | &nbsp; Graduate Assistant &nbsp; | &nbsp; Uniandes --> </span> <br>
       <a href="mailto:dcheca@unal.edu.co" class="email-link">dcheca [at] unal [dot] edu [dot] co</a>
       <div style="height: 5px;"></div>
 
