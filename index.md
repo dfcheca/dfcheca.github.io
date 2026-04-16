@@ -66,7 +66,8 @@ show_title: false
 
 ## Work Experience
 
-- Aug. 2025 - Present. **Universidad Nacional de Colombia - Sede Orinoquía**, Teaching Assistant.
+- Apr. 2026 - Present. **Gimnasio Campestre**, Bilingual Mathematics Teacher.
+- Aug. 2025 - Apr. 2026. **Universidad Nacional de Colombia - Sede Orinoquía**, Teaching Assistant.
 - Aug. 2024 - Jun. 2025. **Universidad de los Andes**, Graduate Assistant - Mathematics Department.
 - Jul. 2024 - Aug. 2025. **Moaddel Law Firm**, Translator and Interpreter.
 - Mar. 2021 - Jun. 2023. **Universidad Nacional de Colombia - Sede Bogotá**, Tutor - *Grupos de Estudio Autónomo* (GEA).
