@@ -48,6 +48,5 @@ sources:
     gitalk:
       js: '/assets/vendor/gitalk/gitalk.js'
       css: '/assets/vendor/gitalk/gitalk.css'
-    mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.min.js' # Last Version 4.0
-    # mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js' # Stable Version 3.2.2
+    mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.min.js' # Last Version from the 4.x.x branch
     # mermaid: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0-rc.8/mermaid.min.js'
