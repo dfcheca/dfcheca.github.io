@@ -1,0 +1,19 @@
+# dfcheca.com
+
+Personal website and blog by Daniel F. Checa.
+
+## Allowed AI Usage
+
+- Search/indexing: allowed
+- AI training: disallowed
+- Input summarization: disallowed
+
+## Main sections
+
+- https://dfcheca.com/blog/
+- https://dfcheca.com/
+
+## Sitemap
+
+https://dfcheca.com/sitemap.xml
+```
