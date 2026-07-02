@@ -123,11 +123,9 @@ comments:
 pageview:
   provider: leancloud # false (default), "leancloud", "custom"
 
-  ## Leancloud
+  ## Cloudflare Worker (replaces LeanCloud)
   leancloud:
-    app_id    : s418s3h5McZJHiQ1rvVTkbf7-MdYXbMMI # LeanCloud App id
-    app_key   : umFKiCtQSuXW0zcQ8StHZYSA # LeanCloud App key
-    app_class : PageView # LeanCloud App class
+    worker_url: https://pageview-counter.dcheca.workers.dev
 
 
 ## => Search

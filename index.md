@@ -24,7 +24,7 @@ show_title: false
   <div class="profile-description">
     <p>
       <b style="font-size: 22px; line-height: 0.5;">Mathematician </b> <br>
-      <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400">Teaching Assistant <!-- &nbsp; | &nbsp; Graduate Assistant &nbsp; | &nbsp; Uniandes --> </span> <br>
+      <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400"> MSc Student &nbsp; | &nbsp; UNAM </span> <br>
       <a href="mailto:dcheca@unal.edu.co" class="email-link">dcheca [at] unal [dot] edu [dot] co</a>
       <div style="height: 5px;"></div>
 
@@ -58,16 +58,17 @@ show_title: false
 
 ## Education
 
+- Aug. 2026. **Universidad Nacional Autónoma de México**, MSc Mathematics.
 <!-- - ~~Aug. 2024 (On Hold). **Universidad de los Andes**, MSc. Mathematics.~~ -->
-- Jan. 2018 - Dec. 2023. **Universidad Nacional de Colombia**, BSc. Mathematics.<br>
+- Jan. 2018 - Dec. 2023. **Universidad Nacional de Colombia**, BSc Mathematics.<br>
   ***Thesis***: (2023) <a href="https://oeis.org/A000045/a000045_3.pdf" target="_blank" rel="noopener noreferrer">*Arndt Compositions: Connections with Fibonacci Numbers, Statistics, and Generalizations*</a>.
   - Awarded as the <a href="documents/Res_010__2024_VA.pdf" target="_blank" rel="noopener noreferrer">Best Mathematics Bachelor's Thesis</a> in 2024.
   - One of the <a href="https://www.acreditta.com/credential/1490ec10-df23-44e9-9b65-9c5ca85c21c5?utm_source=copy&resource_type=badge&resource=1490ec10-df23-44e9-9b65-9c5ca85c21c5" target="_blank" rel="noopener noreferrer">Best National State Tests</a> (Saber Pro) - 2022.
 
 ## Work Experience
 
-- Apr. 2026 - Present. **Gimnasio Campestre**, Bilingual Mathematics Teacher.
+- Apr. 2026 - Jun. 2026. **Gimnasio Campestre**, Bilingual Mathematics Teacher.
 - Aug. 2025 - Apr. 2026. **Universidad Nacional de Colombia - Sede Orinoquía**, Teaching Assistant.
 - Aug. 2024 - Jun. 2025. **Universidad de los Andes**, Graduate Assistant - Mathematics Department.
-- Jul. 2024 - Aug. 2025. **Moaddel Law Firm**, Translator and Interpreter.
+- Jul. 2024 - Aug. 2025. **Moaddel Law Firm**, English - Spanish Translator and Interpreter.
 - Mar. 2021 - Jun. 2023. **Universidad Nacional de Colombia - Sede Bogotá**, Tutor - *Grupos de Estudio Autónomo* (GEA).
