@@ -11,9 +11,6 @@
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
-
-
-
 ## => Site Settings
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
@@ -50,7 +47,7 @@ author:
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
 repository: dfcheca/dfcheca.github.io
-repository_tree: master
+repository_tree: main
 
 
 ## => Paths
@@ -92,11 +89,6 @@ paginate: 3
 paginate_path: "/blog/page/:num/"
 
 
-## => Sources
-##############################
-sources: # bootcdn (default), unpkg
-
-
 ## => Sharing
 ##############################
 sharing:
@@ -106,7 +98,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "custom"
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
@@ -121,10 +113,8 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: leancloud # false (default), "leancloud", "custom"
-
-  ## Cloudflare Worker (replaces LeanCloud)
-  leancloud:
+  provider: cloudflare # false (default), "cloudflare", "custom"
+  cloudflare:
     worker_url: https://pageview-counter.dcheca.workers.dev
 
 

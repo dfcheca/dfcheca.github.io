@@ -22,11 +22,11 @@ articles:
 
 {% assign posts_to_show = paginator.posts %}
 
-{%- assign _WORKER_URL = site.pageview.leancloud.worker_url -%}
+{%- assign _WORKER_URL = site.pageview.cloudflare.worker_url -%}
 
 {%- if _WORKER_URL -%}
   <script>
-    {%- include pageview-providers/leancloud/leancloud.js -%}
+    {%- include pageview-providers/cloudflare/cloudflare.js -%}
   </script>
   <script>
     (function() {
