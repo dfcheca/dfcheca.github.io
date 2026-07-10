@@ -1,19 +1,18 @@
 # dfcheca.com
 
-Personal website and blog by Daniel F. Checa.
+> Personal website and blog by Daniel F. Checa.
 
-## Allowed AI Usage
+## AI Usage Policy
 
-- Search/indexing: allowed
-- AI training: disallowed
-- Input summarization: disallowed
+- Search and indexing: Allowed
+- AI training: Disallowed
+- Input summarization: Disallowed
 
-## Main sections
+## Main Sections
 
-- https://dfcheca.com/blog/
-- https://dfcheca.com/
+- [Homepage](https://dfcheca.com/): Main website.
+- [Blog](https://dfcheca.com/blog/): Articles on mathematics, programming, and related topics.
 
 ## Sitemap
 
-https://dfcheca.com/sitemap.xml
-```
+- [XML Sitemap](https://dfcheca.com/sitemap.xml)
