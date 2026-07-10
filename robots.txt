@@ -1,4 +1,5 @@
 User-agent: *
+Content-Signal: search=yes, ai-train=no, ai-input=no
 Allow: /
 
 User-agent: GPTBot
@@ -13,8 +14,22 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
-Content-Signal: ai-train=no
-Content-Signal: ai-input=no
-Content-Signal: search=yes
+User-agent: CCBot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
 
 Sitemap: https://dfcheca.com/sitemap.xml
