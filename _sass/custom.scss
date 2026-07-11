@@ -10,4 +10,10 @@
   font-variant-ligatures: none; /* Deactivates standard ligatures */
   font-feature-settings: "liga" 0, "calt" 0; /* Deactivates discretionary ligatures */
 }
+
+.article__content .footnotes {
+  border-top: none;
+  margin-top: 0;
+}
+
 /* end custom scss snippet */

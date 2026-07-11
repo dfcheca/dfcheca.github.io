@@ -1,3 +1,28 @@
 <!-- start custom article footer snippet -->
+<script>
+(function() {
+  var footnotes = document.querySelector('.footnotes');
+  if (!footnotes) { return; }
 
+  // Delete all the <hr> before the footnotes block
+  var prev = footnotes.previousElementSibling;
+  while (prev && prev.tagName === 'HR') {
+    var toRemove = prev;
+    prev = prev.previousElementSibling;
+    toRemove.remove();
+  }
+
+  // Delete any <hr> inside the footnotes block
+  var firstChild = footnotes.firstElementChild;
+  if (firstChild && firstChild.tagName === 'HR') {
+    firstChild.remove();
+  }
+
+  // Inject the heading
+  var heading = document.createElement('h2');
+  heading.id = 'notes';
+  heading.textContent = 'Notes';
+  footnotes.parentNode.insertBefore(heading, footnotes);
+})();
+</script>
 <!-- end custom article footer snippet -->
