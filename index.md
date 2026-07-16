@@ -24,13 +24,12 @@ show_title: false
   <div class="profile-description">
     <p>
       <b style="font-size: 22px; line-height: 0.5;">Mathematician </b> <br>
-      <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400"> Teaching Assistant </span> <br>
-      <!-- - ~~ <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400"> MSc Student &nbsp; | &nbsp; UNAM </span> <br> ~~ -->
+      <span style="font-size: 18px; color: #808080; line-height: 0.5; font-weight: 400"> MSc Student &nbsp; | &nbsp; UNAM </span> <br>
       <a href="mailto:dcheca@unal.edu.co" class="email-link">dcheca [at] unal [dot] edu [dot] co</a>
       <div style="height: 5px;"></div>
-
-      Mathematician, sometimes photographer. My areas of interest are enumerative and algebraic combinatorics, as well as topics in discrete mathematics.
+      Mathematician, sometimes <a href="https://www.flickr.com/photos/dfcheca/" target="_blank" rel="noopener noreferrer">photographer</a>. My areas of interest are enumerative and algebraic combinatorics, as well as topics in discrete mathematics. 
     </p>
+    
   </div>
 </div>
 
@@ -59,7 +58,7 @@ show_title: false
 
 ## Education
 
-<!-- - ~~ - Aug. 2026. **Universidad Nacional Autónoma de México**, MSc Mathematics.~~ -->
+- Aug. 2026. **Universidad Nacional Autónoma de México**, MSc Mathematics.
 <!-- - ~~Aug. 2024 (On Hold). **Universidad de los Andes**, MSc. Mathematics.~~ -->
 - Jan. 2018 - Dec. 2023. **Universidad Nacional de Colombia**, BSc Mathematics.<br>
   ***Thesis***: (2023) <a href="https://oeis.org/A000045/a000045_3.pdf" target="_blank" rel="noopener noreferrer">*Arndt Compositions: Connections with Fibonacci Numbers, Statistics, and Generalizations*</a>.
