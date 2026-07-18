@@ -1,4 +1,9 @@
 /* start custom scss snippet */
+
+@view-transition {
+  navigation: auto;
+}
+
 .email-link {
   font-family: map-get($base, font-family-code);
   font-weight: 500;

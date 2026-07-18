@@ -183,7 +183,7 @@ defaults:
 assets:
   source_maps: true
   destination: "/assets"
-  compression: false
+  compression: true
   gzip: false
   defaults:
     integrity:
