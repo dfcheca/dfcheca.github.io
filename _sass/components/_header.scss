@@ -93,6 +93,7 @@
 
 .header__brand > a {
   @include link-colors($header-text-color, $header-text-color);
+  transition: color .2s ease-in-out !important;
   &:hover {
     color: inherit;
     text-decoration: none;

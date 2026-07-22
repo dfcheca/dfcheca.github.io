@@ -1,24 +1,24 @@
 header:
   - titles:
-      en      : &EN       Blog
+      en      : &EN       '<span title="Blog">Blog</span>'
     url: /blog/
 
   - titles:
-      en      : &EN       Archive
+      en      : &EN       '<span title="Archive">Archive</span>'
     url: /archive.html
 
   - titles:
-      en      : &EN       OEIS Seqs.
+      en      : &EN       '<span title="OEIS Sequences">OEIS Seqs.</span>'
     url: /oeis.html
 
   - titles:
-      en      : &EN       CV
+      en      : &EN       '<span title="Curriculum Vitae">CV</span>'
     url: /assets/cv/cv.pdf
 
   - titles:
-      en      : &EN       Tutoring
+      en      : &EN       '<span title="Book a Lesson With Me">Tutoring</span>'
     url: https://preply.com/en/tutor/7443595
   
   - titles:
-      en      : &EN       ♫
-    url: https://youtu.be/Eo7Dw0wbHgA
+      en      : &EN       '&nbsp;<i class="fas fa-camera-retro" title="My Photography"></i>&nbsp;'
+    url: https://www.flickr.com/photos/dfcheca/
