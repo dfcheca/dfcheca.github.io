@@ -9,6 +9,7 @@ article_header:
   background_image:
     gradient: 'linear-gradient(135deg, rgba(0, 0, 0 , 0.8), rgba(255, 255, 255, 0))'
     src: /assets/images/oeis_banner.jpg
+mathjax: false
 ---
 
 <p style="text-align: center;">
