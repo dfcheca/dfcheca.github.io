@@ -8,11 +8,11 @@ header:
     url: /archive.html
 
   - titles:
-      en      : &EN       '<span title="OEIS Sequences">OEIS Seqs.</span>'
+      en      : &EN       '<span title="OEIS Sequences">OEIS</span>'
     url: /oeis.html
 
   - titles:
-      en      : &EN       '<span title="Curriculum Vitae">CV</span>'
+      en      : &EN       '<span title="My Curriculum Vitae">CV</span>'
     url: /assets/cv/cv.pdf
 
   - titles:
@@ -20,5 +20,5 @@ header:
     url: https://preply.com/en/tutor/7443595
   
   - titles:
-      en      : &EN       '&nbsp;<i class="fas fa-camera-retro" title="My Photography"></i>&nbsp;'
+      en      : &EN       '&nbsp;<i class="fas fa-camera" title="My Photography"></i>&nbsp;'
     url: https://www.flickr.com/photos/dfcheca/

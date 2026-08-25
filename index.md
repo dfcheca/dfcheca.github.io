@@ -59,8 +59,7 @@ mathjax: false
 
 ## Education
 
-- Aug. 2026. **Universidad Nacional Autónoma de México**, MSc Mathematics.
-<!-- - ~~Aug. 2024 (On Hold). **Universidad de los Andes**, MSc. Mathematics.~~ -->
+- Aug. 2026 - Present. **Universidad Nacional Autónoma de México**, MSc Mathematics.
 - Jan. 2018 - Dec. 2023. **Universidad Nacional de Colombia**, BSc Mathematics.<br>
   ***Thesis***: (2023) <a href="https://oeis.org/A000045/a000045_3.pdf" target="_blank" rel="noopener noreferrer">*Arndt Compositions: Connections with Fibonacci Numbers, Statistics, and Generalizations*</a>.
   - Awarded as the <a href="documents/Res_010__2024_VA.pdf" target="_blank" rel="noopener noreferrer">Best Mathematics Bachelor's Thesis</a> in 2024.
