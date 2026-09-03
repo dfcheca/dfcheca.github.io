@@ -2,13 +2,13 @@
 title: Counting Spanning Trees of Fan and Wheel Graphs via Deletion-Contraction
 tags: ["Graph Theory", "Generating Functions", "Analytic Combinatorics"]
 key: count-spanning-trees-fan-wheel-del-con
-modify_date: 2026-08-25
+modify_date: 2026-08-28
 
 ---
 
-We will prove the known formulas for the number of spanning trees of fan and wheel graphs in terms of Fibonacci and Lucas numbers. Broadly speaking, our method consists of applying the deletion-contraction relation for the number of spanning trees, and proving that the solutions to the resulting recurrence relations are indeed the aforementioned ones.
+We give deletion-contraction proofs of the classical formulas for the number of spanning trees of fan and wheel graphs in terms of Fibonacci and Lucas numbers. For the fan graph, a suitable deletion-contraction step yields a second-order recurrence satisfied by $F_{2n}$. For the wheel graph, the corresponding recurrence is inhomogeneous; we solve it using generating functions.
 
-This idea had already been addressed in \[[3](#Myers1971)\]. The results proved here are essentially the same, but we consider different ways of applying deletion-contraction to certain edges and of solving the resulting recurrences, which, in the author's view, makes the process simpler.
+A similar approach was already considered in \[[3](#Myers1971)\]. The results proved here are essentially the same, but we use different choices of edges and obtain the resulting recurrences by a somewhat different argument.
 
 ## Introduction
 
@@ -31,7 +31,7 @@ Similarly, the wheel graph $W_{n+1}$ has $n+1$ vertices $\lbrace 0,1,...n\rbrace
 
 In \[[3](#Myers1971)\], the relevance of this type of graph in the theory and applications of planar graphs is mentioned, among which some electrical networks that can be modeled using these graphs stand out. Likewise, <a href="/2024/10/21/colombia-map-coloring.html" target="_blank" rel="noopener noreferrer">in this blog</a> we have seen how wheel graphs often appear as minors in the deletion-contraction relation for the chromatic polynomial of a graph and how they can help simplify some terms in this relation.
 
-Let $\tau(G)$ denote the number of spanning trees of a graph $G=(V,E,\varphi)$. Sedlaček proved in \[[1](#Sedlacek1970)\] that $\tau(A_{n+1})=F_{2n}$ and $\tau(W_{n+1})=L_{2n}-2$, where $F_n$ and $L_n$ are, respectively, the $n$-th Fibonacci and Lucas numbers (resp. <a href="https://oeis.org/A000045" target="_blank" rel="noopener noreferrer">*OEIS* A000045</a> and <a href="https://oeis.org/A000032" target="_blank" rel="noopener noreferrer">*OEIS* A000032</a>). According to authors who cite this article, this proof consists of using the <a href="https://en.wikipedia.org/wiki/Kirchhoff%27s_theorem" target="_blank" rel="noopener noreferrer">Matrix-tree theorem</a> and calculating the aforementioned number of trees by a direct computation[^1].
+Let $\tau(G)$ denote the number of spanning trees of a graph $G=(V,E,\varphi)$. Sedlaček proved in \[[1](#Sedlacek1970)\] that $\tau(A_{n+1})=F_{2n}$ and $\tau(W_{n+1})=L_{2n}-2$, where $F_n$ and $L_n$ are, respectively, the $n$-th Fibonacci and Lucas numbers (resp. <a href="https://oeis.org/A000045" target="_blank" rel="noopener noreferrer">*OEIS* A000045</a> and <a href="https://oeis.org/A000032" target="_blank" rel="noopener noreferrer">*OEIS* A000032</a>). Such proof consists of using the <a href="https://en.wikipedia.org/wiki/Kirchhoff%27s_theorem" target="_blank" rel="noopener noreferrer">Matrix-tree theorem</a> and calculating the aforementioned number of trees by a direct computation.
 
 In this article, we will present a proof via the recurrence relation satisfied by $\tau(G)$, namely, the well-known deletion-contraction relation, which is stated below.
 
@@ -70,21 +70,11 @@ $$
 
 since $G'-e'\cong G$ and $\tau(G' / e')=\tau(G / e)$. Substituting $\tau(G/e)=\tau(G)-\tau(G - e)$ into the preceding expression yields the result. {% include qed.html %}
 
-We will require the use of generating functions, particularly those associated with $F_{2n}$ and $L_{2n}$. The next formula is straightforward to compute.
+We will require the use of generating functions, particularly those associated with $F_{2n}$ and $L_{2n}$. The following lemma allows us to determine the linear recurrence satisfied by a sequence whose generating function is rational, as is the case here.
 
 <div class="theorem" markdown="1" id="lemma-2">
 
-**Lemma 2.** Let $A(x)=\sum_{n\geq0}a_n x^n \in \mathbb{C}[[x]]$. The generating function of the sequence $(a_{2n})_{n\geq 0}$ is
-
-$$\sum_{n\geq0}a_{2n}x^n=\frac{A(x^{1/2})+A(-x^{1/2})}{2}.$$
-
-</div>
-
-Likewise, the following lemma allows us to determine the linear recurrence relation satisfied by a sequence whose generating function is rational, as is the case here.
-
-<div class="theorem" markdown="1" id="lemma-3">
-
-**Lemma 3 \[[4](#Stanley2012), §4.1, Th. 4.1.1\].** Let $\beta_1,\beta_2,\ldots,\beta_d$ be a given sequence of complex numbers, $d\geq1$, and $\beta_d\neq 0$. The following conditions on a sequence $(a_n)_{n\geq0}$ of complex numbers are equivalent,
+**Lemma 2 \[[4](#Stanley2012), §4.1, Th. 4.1.1\].** Let $\beta_1,\beta_2,\ldots,\beta_d$ be a given sequence of complex numbers, $d\geq1$, and $\beta_d\neq 0$. The following conditions on a sequence $(a_n)_{n\geq0}$ of complex numbers are equivalent,
 
 <ol type="i" style="margin-left: 2em;">
   <li>
@@ -105,7 +95,7 @@ In particular, it is known \[[4](#Stanley2012), §1.1, Example 1.1.12\] that $F(
 
 $$\sum_{n\geq 0}F_{2n}x^n=\frac{F(x^{1/2})+F(-x^{1/2})}{2}=\frac{x}{1-3x+x^2}.$$
 
-By [Lemma 3](#lemma-3), $F_{2n}=3F_{2(n-1)}-F_{2(n-2)}$ for every $n\geq 2$. **Our goal will be to prove this recurrence in order to establish the formula for $\tau(A_{n+1})$.**
+By [Lemma 2](#lemma-2), $F_{2n}=3F_{2(n-1)}-F_{2(n-2)}$ for every $n\geq 2$. **Our goal will be to prove this recurrence in order to establish the formula for $\tau(A_{n+1})$.**
 
 Similarly, for $\sum_{n\geq0}L_n x^n=\frac{2-x}{1-x-x^2}$, we obtain
 
@@ -116,11 +106,11 @@ $$\sum_{n\geq 0}L_{2n}x^n=\frac{2-3x}{1-3x+x^2}.$$
 
 <div class="theorem" markdown="1" id="theorem-2">
 
-**Theorem 2.** The number of spanning trees of the fan graph $A_{n+1}$ is given by $\tau(A_{n+1})=F_{2n}$, where $F_n$ is the $n$-th Fibonacci number.
+**Theorem 2.** For $n\geq 1$, the number of spanning trees of the fan graph $A_{n+1}$ is given by $\tau(A_{n+1})=F_{2n}$, where $F_n$ is the $n$-th Fibonacci number.
 
 </div>
 
-***Proof.*** We will denote by $B_{n+1}$ the graph obtained from $A_{n+1}$ by adding an additional edge $e'\_{0,n}$. If we apply deletion-contraction to $A_{n+1}$ with the edge $e=e_{n-1,n}\;$, we obtain the diagram of [Figure 2](#figure-2).
+***Proof.*** Let $n\geq 3$. We will denote by $B_{n+1}$ the graph obtained from $A_{n+1}$ by adding an additional edge $e'\_{0,n}$. If we apply deletion-contraction to $A_{n+1}$ with the edge $e=e_{n-1,n}\;$, we obtain the diagram of [Figure 2](#figure-2).
 
 <figure style="margin-top: 30px;" id="figure-2">
   <img
@@ -147,17 +137,17 @@ By \eqref{eq:del-con-rep}, $\tau(B_n)=2\tau(A_n)-\tau(A_n-e\_{0,n-1})$, and agai
 
 $$\tau(A_{n+1})=2\tau(A_n)-\tau(A_n-e_{0,n-1})+\tau(A_n)=3\tau(A_n)-\tau(A_{n-1}).$$
 
-Let $a_n=\tau(A_{n+1})$ for all $n\geq0$, and therefore $a_n=3a_{n-1}-a_{n-2}$ for every $n\geq 2$. It is easy to see that $a_1=1$ and $a_2=3$. As noted above, this sequence satisfies the same second-order recurrence relation as $F_{2n}$ and has the same initial values; therefore, they coincide. {% include qed.html %}
+Let $a_n=\tau(A_{n+1})$ for all $n\geq 1$, and therefore $a_n=3a_{n-1}-a_{n-2}$ for every $n\geq 3$. It is easy to see that $a_1=1$ and $a_2=3$. As noted above, this sequence satisfies the same second-order recurrence relation as $F_{2n}$ and has the same initial values; therefore, they coincide. {% include qed.html %}
 
 ## The Wheel Graph
 
 <div class="theorem" markdown="1" id="theorem-3">
 
-**Theorem 3.** The number of spanning trees of the wheel graph $W_{n+1}$ is given by $\tau(W_{n+1})=L_{2n}-2$, where $L_n$ is the $n$-th Lucas number.
+**Theorem 3.** For $n\geq 3$, the number of spanning trees of the wheel graph $W_{n+1}$ is given by $\tau(W_{n+1})=L_{2n}-2$, where $L_n$ is the $n$-th Lucas number.
 
 </div>
 
-***Proof.*** Let $R_{n+1}$ be the graph obtained by adding an additional spoke edge $e'\_{0,1}$ to $W_{n+1}$. Applying deletion-contraction to the rim edge $e=e\_{1,n}$ in $W_{n+1}$ gives diagram in [Figure 3](#figure-3).
+***Proof.*** Let $n\geq 5$, and let $R_{n+1}$ be the graph obtained by adding an additional spoke edge $e'\_{0,1}$ to $W_{n+1}$. Applying deletion-contraction to the rim edge $e=e\_{1,n}$ in $W_{n+1}$ gives diagram in [Figure 3](#figure-3).
 
 <figure style="margin-top: 30px;" id="figure-3">
   <img
@@ -195,11 +185,11 @@ $$
 \end{equation}
 $$
 
-Let $w_n=\tau(W_{n+1})$ for $n\geq 0$. Then
+Let $w_n=\tau(W_{n+1})$ for $n\geq 3$. Then
 
 $$w_n=2w_{n-1}-w_{n-2}-a_{n-2}+a_n,$$
 
-and it is straightforward to verify that $a_n-a_{n-2}=F_{2n}-F_{2n-4}=L_{2n-2}$, so for $n\geq2$,
+and it is straightforward to verify that $a_n-a_{n-2}=F_{2n}-F_{2n-4}=L_{2n-2}$, so for $n\geq 5$,
 
 $$
 \begin{equation}
@@ -207,30 +197,32 @@ $$
 \end{equation}
 $$
 
-Unlike the case of the fan graph, in this case it is not immediate to verify what the solution to this recurrence is, so we will apply a standard method consisting of deriving from this equation a functional equation for $W(x)=\sum_{n\geq 0}w_n x^n$ that will allow us to obtain a closed formula for $w_n$. Indeed,
+The initial conditions of $w_n$ can be computed manually. On the one hand, $w_3=\tau(W_4)=\tau(K_4)=16$; on the other hand, $w_4=\tau(W_5)$ can be calculated using the algorithm we have presented, with the caveat that the resulting graph $(W_4-e_{0,1})/e_{1,2}$ is not a wheel graph but rather $K_4$ with one edge removed. It can also be verified that the number of spanning trees of $K_4$ minus any edge is 8; consequently, $w_4=45$.
+
+Unlike the case of the fan graph, it is not immediate to verify what the solution to \eqref{eq:second-wn} is, so we will apply a standard method consisting of deriving from this a functional equation for $W(x)=\sum_{n\geq 3}w_n x^n$ that allows us to obtain a closed formula for $w_n$. Effectively,
 
 $$
 \begin{align*}
   W(x)
-  &=\sum_{n\geq 0}w_n x^n\\
-  &=x+\sum_{n\geq 2} (2w_{n-1}-w_{n-2}+L_{2n-2}) x^n\\
-  &=x+2x W(x)-x^2 W(x)+x\sum_{n\geq 1} L_{2n}\\
-  &=x+(2x-x^2) W(x)+x\left(\frac{2-3x}{1-3x+x^2}-2\right).\\
+  &=\sum_{n\geq 3}w_n x^n\\
+  &=16x^3+45x^4+\sum_{n\geq 5} (2w_{n-1}-w_{n-2}+L_{2n-2}) x^n\\
+  &=16x^3+45x^4+2x \left(W(x)-16x^3\right)-x^2 W(x)+x\left(\frac{2-3x}{1-3x+x^2}-2-3x-7x^2-18x^3\right).\\
 \end{align*}
 $$
 
-Solving this equation for $W(x)$ and applying partial fractions yields
+Solving for $W(x)$ and applying partial fractions yields
 
 $$
 \begin{align*}
   W(x)
-  &=\frac{x(x+1)}{(1-x)(1-3x+x^2)}\\
-  &=\frac{2-3x}{1-3x+x^2}-\frac{2}{1-x}\\
-  &=\sum_{n\geq 0}L_{2n}x^n-\sum_{n\geq 0}2 x^n.
+  &=\frac{16 x^3-19 x^4+5 x^5}{(1-x)(1-3x+x^2)}\\
+  &=-x-5x^2+\frac{2-3x}{1-3x+x^2}-\frac{2}{1-x}\\
+  &=-x-5x^2+\sum_{n\geq 0}L_{2n}x^n-\sum_{n\geq 0}2 x^n\\
+  &=\sum_{n\geq 3}L_{2n}x^n-\sum_{n\geq 3}2 x^n.
 \end{align*}
 $$
 
-Comparing the coefficients on both sides of the equality proves the desired formula. {% include qed.html %}
+Comparing the coefficients on both sides proves the formula. {% include qed.html %}
 
 ## References
 
@@ -241,6 +233,3 @@ Comparing the coefficients on both sides of the equality proves the desired form
 3. <a id="Myers1971"></a> Myers, B. (1971). ***Number of spanning trees in a wheel***. IEEE Transactions on Circuit Theory, 18(2), 280–282. [https://doi.org/10.1109/TCT.1971.1083273](https://doi.org/10.1109/TCT.1971.1083273)
 
 4. <a id="Stanley2012"></a> Stanley, Richard P. (2012). ***Enumerative Combinatorics: Volume 1*** (2nd ed.). Cambridge University Press. <a href="https://doi.org/10.1017/CBO9781139058520" target="_blank" rel="noopener noreferrer">https://doi.org/10.1017/CBO9781139058520</a>
-
-
-[^1]: I say “mentioned by other authors” because, to date, I have not been able to obtain a copy of the article. The journal in which it was published is in Czech and was issued only once, and it is available for consultation only in the reading rooms or online through select European universities. Through an interlibrary loan, I plan to take a look at the article and provide more first-hand details.
