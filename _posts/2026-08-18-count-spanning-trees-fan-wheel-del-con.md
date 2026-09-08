@@ -22,7 +22,7 @@ Similarly, the wheel graph $W_{n+1}$ has $n+1$ vertices $\lbrace 0,1,...n\rbrace
 
 <figure style="margin-top: 30px;" id="figure-1">
   <img
-    src="/assets/images/Fan_and_wheel.svg"
+    src="/assets/images/fan_and_wheel.svg"
     alt="Fan Graph $A_{n+1}$ and Wheel Graph $W_{n+1}$."
     style="width: 60%; height: auto;"
   >
