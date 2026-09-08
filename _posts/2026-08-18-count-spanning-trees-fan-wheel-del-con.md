@@ -106,7 +106,7 @@ $$\sum_{n\geq 0}L_{2n}x^n=\frac{2-3x}{1-3x+x^2}.$$
 
 <div class="theorem" markdown="1" id="theorem-2">
 
-**Theorem 2.** For $n\geq 1$, the number of spanning trees of the fan graph $A_{n+1}$ is given by $\tau(A_{n+1})=F_{2n}$, where $F_n$ is the $n$-th Fibonacci number.
+**Theorem 2.** For $n\geq 1$, the number of spanning trees of the fan graph $A_{n+1}$ is given by $\tau(A_{n+1})=F_{2n}$ (<a href="https://oeis.org/A001906" target="_blank" rel="noopener noreferrer">*OEIS* A001906</a>), where $F_n$ is the $n$-th Fibonacci number.
 
 </div>
 
@@ -137,17 +137,17 @@ By \eqref{eq:del-con-rep}, $\tau(B_n)=2\tau(A_n)-\tau(A_n-e\_{0,n-1})$, and agai
 
 $$\tau(A_{n+1})=2\tau(A_n)-\tau(A_n-e_{0,n-1})+\tau(A_n)=3\tau(A_n)-\tau(A_{n-1}).$$
 
-Let $a_n=\tau(A_{n+1})$ for all $n\geq 1$, and therefore $a_n=3a_{n-1}-a_{n-2}$ for every $n\geq 3$. It is easy to see that $a_1=1$ and $a_2=3$. As noted above, this sequence satisfies the same second-order recurrence relation as $F_{2n}$ and has the same initial values; therefore, they coincide. {% include qed.html %}
+Let $a_n=\tau(A_{n+1})$ for all $n\geq 1$, and therefore $a_n=3a_{n-1}-a_{n-2}$ for every $n\geq 3$. It is easy to see that $a_1=1$ and $a_2=3$. As noted above, this sequence satisfies the same second-order recurrence relation as $F_{2n}$ and has the same initial values; therefore, they match. {% include qed.html %}
 
 ## The Wheel Graph
 
 <div class="theorem" markdown="1" id="theorem-3">
 
-**Theorem 3.** For $n\geq 3$, the number of spanning trees of the wheel graph $W_{n+1}$ is given by $\tau(W_{n+1})=L_{2n}-2$, where $L_n$ is the $n$-th Lucas number.
+**Theorem 3.** For $n\geq 1$, the number of spanning trees of the wheel graph $W_{n+1}$ is given by $\tau(W_{n+1})=L_{2n}-2$ (<a href="https://oeis.org/A004146" target="_blank" rel="noopener noreferrer">*OEIS* A004146</a>), where $L_n$ is the $n$-th Lucas number.
 
 </div>
 
-***Proof.*** Let $n\geq 5$, and let $R_{n+1}$ be the graph obtained by adding an additional spoke edge $e'\_{0,1}$ to $W_{n+1}$. Applying deletion-contraction to the rim edge $e=e\_{1,n}$ in $W_{n+1}$ gives diagram in [Figure 3](#figure-3).
+***Proof.*** Let $n\geq 3$, and let $R_{n+1}$ be the graph obtained by adding an additional spoke edge $e'\_{0,1}$ to $W_{n+1}$. Applying deletion-contraction to the rim edge $e=e\_{1,n}$ in $W_{n+1}$ gives diagram in [Figure 3](#figure-3).
 
 <figure style="margin-top: 30px;" id="figure-3">
   <img
@@ -185,11 +185,11 @@ $$
 \end{equation}
 $$
 
-Let $w_n=\tau(W_{n+1})$ for $n\geq 3$. Then
+Let $w_n=\tau(W_{n+1})$ for $n\geq 1$. Then
 
 $$w_n=2w_{n-1}-w_{n-2}-a_{n-2}+a_n,$$
 
-and it is straightforward to verify that $a_n-a_{n-2}=F_{2n}-F_{2n-4}=L_{2n-2}$, so for $n\geq 5$,
+and it is straightforward to verify that $a_n-a_{n-2}=F_{2n}-F_{2n-4}=L_{2n-2}$, so for $n\geq 3$,
 
 $$
 \begin{equation}
@@ -197,16 +197,16 @@ $$
 \end{equation}
 $$
 
-The initial conditions of $w_n$ can be computed manually. On the one hand, $w_3=\tau(W_4)=\tau(K_4)=16$; on the other hand, $w_4=\tau(W_5)$ can be calculated using the algorithm we have presented, with the caveat that the resulting graph $(W_4-e_{0,1})/e_{1,2}$ is not a wheel graph but rather $K_4$ with one edge removed. It can also be verified that the number of spanning trees of $K_4$ minus any edge is 8; consequently, $w_4=45$.
+The initial conditions can be computed manually: $w_1=1$ and $w_2=5$.
 
-Unlike the case of the fan graph, it is not immediate to verify what the solution to \eqref{eq:second-wn} is, so we will apply a standard method consisting of deriving from this a functional equation for $W(x)=\sum_{n\geq 3}w_n x^n$ that allows us to obtain a closed formula for $w_n$. Effectively,
+Unlike the case of the fan graph, it is not immediate to verify what the solution to \eqref{eq:second-wn} is, so we will apply a standard method consisting of deriving from this a functional equation for $W(x)=\sum_{n\geq 1}w_n x^n$ that allows us to obtain a closed formula for $w_n$. Effectively,
 
 $$
 \begin{align*}
   W(x)
-  &=\sum_{n\geq 3}w_n x^n\\
-  &=16x^3+45x^4+\sum_{n\geq 5} (2w_{n-1}-w_{n-2}+L_{2n-2}) x^n\\
-  &=16x^3+45x^4+2x \left(W(x)-16x^3\right)-x^2 W(x)+x\left(\frac{2-3x}{1-3x+x^2}-2-3x-7x^2-18x^3\right).\\
+  &=\sum_{n\geq 1}w_n x^n\\
+  &=x+5x^2+\sum_{n\geq 3} (2w_{n-1}-w_{n-2}+L_{2n-2}) x^n\\
+  &=x+5x^2++2x \left(W(x)-x\right)-x^2 W(x)+x\left(\frac{2-3x}{1-3x+x^2}-2-3x\right).\\
 \end{align*}
 $$
 
@@ -215,10 +215,9 @@ Solving for $W(x)$ and applying partial fractions yields
 $$
 \begin{align*}
   W(x)
-  &=\frac{16 x^3-19 x^4+5 x^5}{(1-x)(1-3x+x^2)}\\
-  &=-x-5x^2+\frac{2-3x}{1-3x+x^2}-\frac{2}{1-x}\\
-  &=-x-5x^2+\sum_{n\geq 0}L_{2n}x^n-\sum_{n\geq 0}2 x^n\\
-  &=\sum_{n\geq 3}L_{2n}x^n-\sum_{n\geq 3}2 x^n.
+  &=\frac{x+x^2}{(1-x)(1-3x+x^2)}\\
+  &=\frac{2-3x}{1-3x+x^2}-\frac{2}{1-x}\\
+  &=\sum_{n\geq 0}L_{2n}x^n-\sum_{n\geq 0}2 x^n.
 \end{align*}
 $$
 
